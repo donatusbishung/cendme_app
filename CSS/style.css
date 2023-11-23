@@ -1,0 +1,12 @@
+/* 
+    Please make sure you indicated using comments, the area or section you are styling
+    Don't style inside another contributors' section
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@200;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+/* Global styling */
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
