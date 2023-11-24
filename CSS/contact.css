@@ -16,6 +16,9 @@ section {
     padding: 30px;
 
 }
+.phone {
+    display: flex;
+}
 .sub-col {
     color: #C9C9C9;
 }
