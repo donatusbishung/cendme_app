@@ -27,3 +27,22 @@ section {
 .sub-col {
     color: #C9C9C9;
 }
+.social,
+.bottom {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    align-items: flex-start;
+    border: 3px solid yellow;
+}
+.social ul  {
+    list-style: none;
+    gap: 0.5rem;
+}
+.social ul li a img {
+    color: white;
+    background-color: #1B1B1B;
+    padding: 10px;
+    height: 30px;
+    border-radius: 50%;
+}
