@@ -1,0 +1,20 @@
+section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero  {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.contact-inf {
+    background: #000000CC;
+    width: 50%;
+
+}
+.sub-col {
+    color: #C9C9C9;
+}
