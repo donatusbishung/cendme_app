@@ -22,6 +22,7 @@ section {
     width: 40%;
     padding: 30px;
     height: 504px;
+    overflow: hidden;
 }
 .phone {
     display: flex;
@@ -49,7 +50,6 @@ section {
     padding: 0;
     border: 3px solid blue;
     margin: 0;
-    overflow: hidden;
 }
 .el {
     height: 70px;
