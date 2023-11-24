@@ -18,6 +18,8 @@ section {
 }
 .phone {
     display: flex;
+    gap: 0.5rem;
+    align-items: center;
 }
 .sub-col {
     color: #C9C9C9;
