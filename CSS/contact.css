@@ -34,20 +34,27 @@ section {
 .social,
 .bottom {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 0;
-    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
 }
 .elipse {
     display: flex;
     justify-content: flex-end;
     padding: 0;
+    border: 3px solid blue;
+    margin: 0;
+    overflow: hidden;
 }
 .el {
     height: 70px;
 }
 .el1 {
     height: 140px;
+    position: absolute;
+    bottom: 0;
 }
 .social ul  {
     list-style: none;
