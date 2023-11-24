@@ -8,6 +8,19 @@ section {
     justify-content: center;
     align-items: center;
 }
+.hx {
+font-size: 26px;
+font-weight: 600;
+line-height: 34px;
+letter-spacing: 0em;
+
+}
+.sx {
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+}
 .hero  {
     width: 80%;
     justify-content: center;
