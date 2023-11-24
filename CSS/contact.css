@@ -18,7 +18,7 @@ section {
     background: #000000CC;
     width: 40%;
     padding: 30px;
-    height: 554px;
+    height: 504px;
 }
 .phone {
     display: flex;
@@ -37,7 +37,6 @@ section {
     justify-content: flex-start;
     padding: 0;
     align-items: flex-start;
-    border: 3px solid yellow;
 }
 .social ul  {
     list-style: none;
