@@ -38,6 +38,11 @@ section {
     padding: 0;
     align-items: flex-start;
 }
+.elipse {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
 .el {
     height: 70px;
 }
