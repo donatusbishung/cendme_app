@@ -38,8 +38,11 @@ section {
     padding: 0;
     align-items: flex-start;
 }
-.elipse {
-    height: 20px;
+.el {
+    height: 70px;
+}
+.el1 {
+    height: 140px;
 }
 .social ul  {
     list-style: none;
