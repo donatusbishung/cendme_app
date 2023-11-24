@@ -49,14 +49,17 @@ section {
     padding: 0;
     border: 3px solid blue;
     margin: 0;
+    width: auto;
 }
 .el {
     height: 70px;
+    bottom: 0;
+    right: 0;
 }
 .el1 {
     height: 140px;
     position: absolute;
-    bottom: 0;
+   
 }
 .social ul  {
     list-style: none;
