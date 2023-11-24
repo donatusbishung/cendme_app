@@ -9,6 +9,9 @@ section {
     width: 80%;
     justify-content: center;
     align-items: center;
+    border: 1px solid #1E9D42;
+    margin-top: 10px;
+    padding: 30px 10px;
 }
 .infos {
     padding-top: 35px;
