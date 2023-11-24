@@ -38,6 +38,9 @@ section {
     padding: 0;
     align-items: flex-start;
 }
+.elipse {
+    height: 20px;
+}
 .social ul  {
     list-style: none;
     gap: 0.5rem;
