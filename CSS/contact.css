@@ -181,6 +181,15 @@ textarea::placeholder {
     justify-content: center;
     align-items: center;
 }
+.cta h1 {
+    font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+
+}
 .invite-btn {
     background: #5ED680;
     color: #fff;
