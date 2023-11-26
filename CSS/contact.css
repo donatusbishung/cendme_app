@@ -106,3 +106,7 @@ text-align: left;
     height: 30px;
     border-radius: 50%;
 }
+.hero-bod {
+    display: flex;
+    justify-content: space-between;
+}
