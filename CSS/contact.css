@@ -218,5 +218,5 @@ textarea::placeholder {
     border: 1px solid  rgb(176 190 197);
     background-color: transparent;
     padding: 0.625rem 70px 0.625rem 0.75rem;
-
+    background-color: white;
 }
