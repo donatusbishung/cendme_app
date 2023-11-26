@@ -117,8 +117,11 @@ form {
     display: flex;
     gap: 2rem;
 }
-label {
+input {
     width: 285px;
     height: 48px;
     border-radius: 8px;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 8px;
+    background: #E7E7E7;
 }
