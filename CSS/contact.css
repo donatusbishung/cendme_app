@@ -158,5 +158,5 @@ textarea {
 .btn a {
     padding: 10px, 24px, 10px, 24px;
     border-radius: 16px;
-    gap: 10px;
+    background: #5ED680;
 }
