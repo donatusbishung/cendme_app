@@ -20,20 +20,21 @@
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
-<body>
-   
+<body style="overflow-x: hidden;">
+
+   <!--Navigation and header-->
      <header>
         <nav class="navbar navbar-expand-lg w-100 py-3 shadow-sm active" style="border-bottom:1px solid #5ED680;">
             <div class="container-fluid">
-              <a class="navbar-brand text-center" href="#" style="font-size:30px;margin-left:90px;color:#1E9D42;font-weight:bolder;">CendMe</a>
-              <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand text-center cendme-title" href="#" style="font-size:30px;margin-left:90px;color:#1E9D42;font-weight:bolder;">CendMe</a>
+              <button class="navbar-toggler custom-toggler" style="border:none;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="mx-auto">
                 <ul class="navbar-nav mb-2 mb-lg-0 nav-transition" style="gap:50px;">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html" style="color:#1E9D42; border-bottom:1px solid #5ED680">Home</a>
+                  <li class="nav-item border-lenght">
+                    <a class="nav-link active"  aria-current="page" href="index.html" style="color:#1E9D42; border-bottom:1px solid #5ED680">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="about.html" style="color:black;">About</a>
@@ -56,12 +57,12 @@
 
 
      <!--Newsletter Section-->
-     <section style="margin-top:30px;">
-      <div class=" px-4 text-center" style="background-color:rgb(54, 54, 54); color:whitesmoke; height:361px;">
+     <section style="margin-top:30px;" class="newsletter-sec">
+      <div class=" px-4 text-center" style="background-color: rgb(54, 54, 54); color:whitesmoke; height:361px;">
         <div class="row gx-5">
           <div class="col">
            <div class="p-3">
-            <h1 style="font-size:48px; margin-top:30px;line-height:60px;text-align:center;width:50%;margin-left: 25%;font-weight: bold;">Join our newsletter to get the latest guides!</h1>
+            <h1 class="newsletter-header" style="font-size:48px; margin-top:30px;line-height:60px;text-align:center;width:60%;margin-left: 20%;font-weight: bold;" >Join our newsletter to get the latest guides!</h1>
            </div>
           </div>
           
@@ -73,7 +74,7 @@
             <form>
               <div class="flex border w-50 input-container" style="display: flex; flex-direction: column; margin-left:25%;border-radius: 40px; border: none !important;">
                 <img src="./Assets/IMG/sms.png" alt="icon" width="20" class="sms-icon"/>
-                <input type="email" placeholder="Enter your email" required style="padding:20px;border-radius: 40px; padding-left: 50px;">
+                <input class="input-email" type="email" placeholder="Enter your email" required style="padding:20px;border-radius: 40px; padding-left: 50px;">
                 <div>
                   <button type="submit" class="input-button">Send Message</button>
                 </div>
@@ -86,9 +87,9 @@
       </div>
       
      </section>
-     <section>
+     <section class="wave-sec">
       <div>
-        <img src="./Assets/IMG/Wave.png" alt="wave" style="width:100%;" />
+        <img  src="./Assets/IMG/Wave.png" alt="wave" style="width:100%;" />
       </div>
      </section>
 
@@ -99,18 +100,18 @@
           <div class="container px-4 " style="gap: 35px;">
             <div class="row gx-5">
               <div class="col" style="margin-left: 40px;">
-               <div class="p-5">
+               <div class="p-5 first-footer-col">
                 <h1 style="color:#1E9D42; font-weight: bolder; margin-right:25%;margin-top:20px;">CendMe</h1>
                 <p style="line-height: 30px;margin-top: 30px;width:130%;">Get things done without lifting a finger. Life is too short to run errands. Let us do it for you. Sign up for CendMe today and start enjoying your free time.</p>
                </div>
-               <div class="d-flex ms-5" style="margin-top: -12%;gap:40px;">
+               <div class="d-flex ms-5 first-footer-icons" style="margin-top: -12%;gap:40px;">
                 <img src="./Assets/IMG/1.png" alt="twitter icon" width="20" height="18"/>
                 <img src="./Assets/IMG/logo-fb-simple 2.png" alt="facebook icon"/>
                 <img src="./Assets/IMG/logo-instagram 1.png" alt="instagram icon"/>
               </div>
               </div>
               <div class="col">
-                <div class="p-3" style="margin-left: 90px;">
+                <div class="p-3 sec-footer-col" style="margin-left: 90px;">
                   <h6 style="color:#1E9D42;margin-top: 60px;font-weight: bolder;">COMPANY</h6>
                   <div style="margin-top: 50px;">
                   <p>About</p>
@@ -121,7 +122,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="p-3" style="margin-left: 90px;" >
+                <div class="p-3 third-footer-col" style="margin-left: 90px;" >
                   <h6 style="color: #1E9D42;margin-top: 60px;font-weight: bolder;">HELP</h6>
                   <div style="margin-top: 50px;">
                     <p>Customer Support</p>
@@ -133,7 +134,7 @@
               </div>
             </div>
           </div>
-          <div class="container px-4  w-50" style="margin-left: 14%; margin-bottom:40px;margin-top: 60px;">
+          <div class="container px-4  w-50 copyright-nav" style="margin-left: 14%; margin-bottom:40px;margin-top: 60px;">
             <div class="row" style="font-size: 14px; cursor: pointer;">
               <div class="col">
                 <p>About Us</p>
@@ -151,7 +152,7 @@
           </div>
 
           <!--right containing copyright-->
-          <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+          <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center copyright-text">
             <p class="right-copyright">&copy 2023 All Rights Reserved</p>
           </div>
         </div>

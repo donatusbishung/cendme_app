@@ -79,7 +79,125 @@ input:focus {
 
 
 
-/* 
-    Please make sure you indicate using comments, the area or section you are styling
-    Don't style inside another contributor's section.
- */
+/* Mobile responsiveness*/
+
+@media only screen and (max-width: 767px) {
+
+    /* header section */
+    .cendme-title {
+        position: relative;
+        right: 22%;
+    }
+
+    .border-lenght {
+        margin-top: 15px;
+    }
+
+    .nav-transition li:hover {
+        width: 25%;
+    }
+
+    /* newsletter section */
+    .newsletter-sec {
+        height: 70vh;
+        background-color: rgb(54, 54, 54) !important;
+        
+    }
+
+    .wave-sec {
+        height: 20vh;
+    }
+    .newsletter-header {
+        width: 100% !important;
+        position: relative;
+        left: -20%;
+    }
+    .input-container {
+        width: 130% !important;
+        left: -39%;
+    }
+    .input-email {
+        padding-left: 40px !important; 
+    }
+
+    /* Footer section */
+    .first-footer-col {
+        margin-top: -50%;
+        margin-left: -38%;
+    }
+    .first-footer-icons {
+        position: relative;
+        left: -35%;
+    }
+    .sec-footer-col {
+        position: relative;
+        left: -35%;
+        top: -5%;
+    }
+    .third-footer-col {
+        position: relative;
+        left: -35%;
+        top: -20%;
+    }
+    .copyright-nav {
+        width: 100% !important;
+        position: relative;
+        left: -15%;
+        margin-top: -10% !important;
+    }
+    .copyright-text {
+        position: relative;
+        top: -60%;
+        left: -35%;
+        margin-top:50px !important;
+    }
+} 
+
+
+/* Tablet responsiveness */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* Header section */
+    .cendme-title {
+        position: relative;
+        right:10%;
+    }
+    .border-lenght {
+        margin-top:15px;
+    }
+    .nav-transition li:hover {
+        width:12%;
+    }
+
+    /*Newsletter section */
+    .newsletter-sec {
+        height: 40vh;
+       /* background-color: rgb(54, 54, 54);*/
+       background-color: #000000CC;
+    }
+    .newsletter-header {
+        width: 100% !important;
+        position: relative;
+        left: -20%;
+        margin-top: 15% !important;
+    }
+    .input-container {
+        width: 70% !important;
+        left: -10%;
+    }
+
+    /* Footer section */
+    .third-footer-col {
+        position: relative;
+        left: -3%;
+    }
+    .copyright-nav {
+        width: 60% !important;
+    }
+    .copyright-text {
+        position: absolute;
+        right: -13%;
+        margin-top: -5% !important;
+    }
+}
