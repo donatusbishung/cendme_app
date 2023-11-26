@@ -46,8 +46,8 @@ text-align: left;
 
 }
 .infos {
-    padding-top: 35px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 90px;
 }
 .contact-inf {
     background: #000000CC;
@@ -55,6 +55,7 @@ text-align: left;
     padding: 30px;
     height: 504px;
     overflow: hidden;
+    border-radius: 8px;
 }
 .phone {
     display: flex;
