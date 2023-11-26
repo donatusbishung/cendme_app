@@ -180,6 +180,7 @@ textarea::placeholder {
     color: #fff;
     border-radius: 32px;
     padding: 7px;
+    border: none;
 }
 .input-container  input {
     background: #FFFFFF;
