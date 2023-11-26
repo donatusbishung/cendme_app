@@ -21,14 +21,14 @@ Welcome to the CendMe Website Project!! This is a website developed by our team 
 - **Task Management:** Easily create, organize, and manage your daily errands and tasks.
 
 ## Technologies Used
-- **Frontend:** HTML, CSS, JavaScript CSS Framework(Bootstrap and Tailwind)
+- **Frontend:** HTML, CSS, JavaScript, CSS Framework(Bootstrap and Tailwind)
 - **Version Control:** Git
 - **Libraries:** Font awesome, Swiperjs, and Boxicon
 
 ## Installation
 1. Clone this repository to your local machine:
 `https://github.com/kodecampteam/bg-group4-frontend.git`
-2. Navigate tp the project directory: `cd bg-group4-frontend`
+2. Navigate to the project directory: `cd bg-group4-frontend`
 3. Use this command to open the current folder on your code editor: `code .`
 
 ## Contributors
