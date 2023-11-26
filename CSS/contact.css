@@ -110,7 +110,7 @@ text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 4.5rem;
 }
 form {
     width: 60%;
@@ -130,4 +130,8 @@ input {
     background: #E7E7E7;
     border: none;
     margin-top: 10px;
+}
+.fname,
+.email {
+    width: 50%;
 }
