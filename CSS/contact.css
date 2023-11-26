@@ -187,9 +187,9 @@ textarea::placeholder {
     border-radius: 32px;
     border: none;
     position: absolute;
-    right: 14px;
-    top: 14px;
-    bottom: 24px;
+    right: 6px;
+    top: 15px;
+    bottom: 14px;
     z-index: 10;
     color: #fff;
    height: 60px;
