@@ -100,13 +100,26 @@ text-align: left;
     list-style: none;
     gap: 0.5rem;
     padding: 0;
+    display: flex;
 }
-.social ul li a img {
+.social ul li a {
+    text-decoration: none;
+}
+.social ul li a i {
    /*  color: ; */
-    background-color: #1B1B1B;
-    padding: 10px;
-    height: 30px;
+   background-color: #1B1B1B;
+   color: white;
+    height: 40px;
+    padding: 5px 12px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
     border-radius: 50%;
+    width: 40px;
+}
+.social ul li a i:hover {
+    color: #1B1B1B;
+    background-color: white;
 }
 .hero-bod {
     display: flex;
