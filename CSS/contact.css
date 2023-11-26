@@ -108,10 +108,19 @@ text-align: left;
 }
 .hero-bod {
     display: flex;
+    gap: 4rem;
 }
 form {
     width: 60%;
 }
 .name {
     display: flex;
+    gap: 2rem;
+}
+label {
+    width: Hug (285px)
+height: Hug (48px)
+border-radius: 8px
+gap: 16px
+
 }
