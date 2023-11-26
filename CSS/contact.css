@@ -179,7 +179,7 @@ textarea::placeholder {
     background: #5ED680;
     color: #fff;
     border-radius: 32px;
-    padding: 7px;
+    padding: 9px;
     border: none;
 }
 .input-container  input {
