@@ -51,7 +51,7 @@ text-align: left;
 }
 .contact-inf {
     background: #000000CC;
-    width: 40%;
+    width: 45%;
     padding: 30px;
     height: 504px;
     overflow: hidden;
@@ -114,7 +114,7 @@ text-align: left;
     gap: 4.5rem;
 }
 form {
-    width: 60%;
+    width: 55%;
     padding-right: 20px;
 }
 .name {
