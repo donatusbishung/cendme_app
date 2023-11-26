@@ -154,11 +154,16 @@ textarea {
     border-radius: 8px;
     font-size: 14px;
     font-weight: 400;
+    margin-bottom: 20px;
+}
+.btn {
+    height: auto;
+    width: 100%;
 }
 .btn a {
-    height: 149px;
-    width: 56px;
-    padding: 10px, 24px, 10px, 24px;
+    padding: 20px;
+   justify-content: flex-end;
     border-radius: 16px;
     background: #5ED680;
+    text-decoration: none;
 }
