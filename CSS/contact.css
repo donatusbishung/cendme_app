@@ -156,12 +156,7 @@ textarea {
     font-weight: 400;
 }
 .btn a {
-    width: Hug (149px)
-height: Fixed (56px)
-top: 697px
-left: 998px
-padding: 10px, 24px, 10px, 24px
-border-radius: 16px
-gap: 10px
-
+    padding: 10px, 24px, 10px, 24px;
+    border-radius: 16px;
+    gap: 10px;
 }
