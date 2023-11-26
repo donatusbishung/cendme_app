@@ -116,6 +116,7 @@ form {
 .name {
     display: flex;
     gap: 2rem;
+    margin-bottom: 25px;
 }
 input {
     width: 285px;
@@ -124,4 +125,6 @@ input {
     padding: 8px, 16px, 8px, 16px;
     border-radius: 8px;
     background: #E7E7E7;
+    border: none;
+    margin-top: 10px;
 }
