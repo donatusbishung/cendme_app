@@ -178,8 +178,10 @@ textarea::placeholder {
 .invite-btn {
     background: #5ED680;
     color: #fff;
+    border-radius: 32px;
+    padding: 7px;
 }
 .input-container  input {
     background: #FFFFFF;
-
+    padding: 20px;
 }
