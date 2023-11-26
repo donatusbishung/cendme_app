@@ -108,7 +108,9 @@ text-align: left;
 }
 .hero-bod {
     display: flex;
-    justify-content: space-between;
+}
+form {
+    width: 60%;
 }
 .name {
     display: flex;
