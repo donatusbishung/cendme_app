@@ -156,6 +156,8 @@ textarea {
     font-weight: 400;
 }
 .btn a {
+    height: 149px;
+    width: 56px;
     padding: 10px, 24px, 10px, 24px;
     border-radius: 16px;
     background: #5ED680;
