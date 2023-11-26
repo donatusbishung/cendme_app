@@ -182,6 +182,7 @@ textarea::placeholder {
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    padding-bottom: 45px;
 }
 .cta h1 {
     font-size: 48px;
