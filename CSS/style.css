@@ -27,3 +27,22 @@
     Please make sure you indicate using comments, the area or section you are styling
     Don't style inside another contributor's section.
  */
+
+.hero {
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.hero-bg {
+    background-image: url(../Assets/IMG/Rectangle\ 52.png);
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* width: 920px; */
+    /* height: 570px; */
+}
+
+
+ 
