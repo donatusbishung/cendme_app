@@ -21,7 +21,32 @@
     background-color: rgba(0, 0, 0, 0.80);
 }
 /* End Global Styling */
-/* 
-    Please make sure you indicate using comments, the area or section you are styling
-    Don't style inside another contributor's section
- */
+
+/* terms of use styling */
+
+.terms-of-use {
+    font-family: inter!important;
+}
+
+.welcome {
+    font-size: 12px;
+}
+
+.terms-of-use p {
+    font-size: 14px;
+}
+
+.terms-of-use li {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p-a li {
+    list-style-type: disc;
+}
+
+.t-o-u {
+    font-size: 12px;
+    line-height: normal;
+}
