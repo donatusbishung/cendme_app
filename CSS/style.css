@@ -34,15 +34,18 @@
     margin-right: 30px;
 }
 
-.hero-bg {
+.hero-bg { 
     background-image: url(../Assets/IMG/Rectangle\ 52.png);
     background-position: center;
-    /* background-size: cover; */
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     /* width: 920px; */
-    /* height: 570px; */
+    height: 500px;
 }
 
+.z {
+    z-index: 1000 !important;
+}
 
  
