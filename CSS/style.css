@@ -51,3 +51,107 @@
     opacity: 60%;
 }
 /* end of testimonial section */
+
+
+/* CendMe lifesaver section beginning */
+.main_cover_section {
+    display: flex;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.svg_line {
+    position: absolute;  
+    left: 170px; 
+    top: 30px; 
+    width: 65%;
+}
+
+.container_hold_line_text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%; 
+    /* left: 150px;  */
+    top: 10px;
+    padding-left: 170px;
+}
+
+.sub_container_hold_line_text {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.text_info_and_line_container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.background_image_section {
+    position: absolute;
+    bottom: 0;
+    right: -106px;
+}
+
+.background_image_section img {
+    width: 90%; height: auto;
+}
+
+
+/* Swipper part */
+
+.swipper_area_container {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+    z-index: 999; 
+    padding: 20px;
+}
+
+.inside_swipper_left_side {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px;
+}
+
+.inside_swipper_right_side {
+    background-color: #1E9D42; 
+    color: #fff; 
+    padding: 8px 25px; 
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1075px) {
+    .text_info_and_line_container {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        justify-content: center;
+        align-items: center;
+        padding: 18px;
+    }
+
+
+    .svg_line {
+        position: absolute;
+        left: 63px;
+        top: 105px;
+        width: 65%;
+    }
+}
+/* CendMe lifesaver section ending */
