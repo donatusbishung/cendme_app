@@ -45,4 +45,9 @@
     font-family: 'Manrope', sans-serif !important;
 }
 
+.rating-sect {
+    font-family: 'Manrope', sans-serif !important;
+    font-size: 18px; 
+    opacity: 60%;
+}
 /* end of testimonial section */
