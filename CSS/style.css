@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@200;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,16 +7,14 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@200;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
-
 /* Global styling */
 
 .pri-col {
-    color: #5ED680;
+    color: #5ED680 !important;
 }
 
 .sec-col {
-    color: #1E9D42;
+    color: #1E9D42 !important;
 }
 
 .pri-bg-col {
@@ -27,3 +27,22 @@
     Please make sure you indicate using comments, the area or section you are styling
     Don't style inside another contributor's section.
  */
+
+
+ /* 
+ testimonial section
+  */
+.costumer-info {
+    background-color: #1E9D42;
+    color: white;
+    /* width: 274px;
+    height: 59px; */
+    padding: 5px;
+    /* margin: 2rem !important; */
+}
+
+.manrope-font {
+    font-family: 'Manrope', sans-serif !important;
+}
+
+/* end of testimonial section */
