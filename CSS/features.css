@@ -6,6 +6,7 @@
 }
 
 #features {
+
     .pri-col {
         color: #5ED680;
     }
@@ -44,12 +45,19 @@
 
     .card {
         background-color: #92E3A933;
+        width: 22rem !important;
+        height: 30rem% !important;
     }
 
     .download-buttons {
         cursor: pointer;
     }
 
+    .image-resize {
+        width: 185px;
+        height: auto;
+    }
+}
 /* media querry */
 
 @media (max-width: 430px) {
