@@ -23,32 +23,32 @@
 
 .second {
     text-align: center;
-    margin-left: 100px;
-    width: 60%;
     font-size: 20px;
+    margin-bottom: 40px;
 }
 .bold {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-    font-size: 60px;
-    margin-right: 160px;
-    margin-bottom: 30px;
+    font-size: 100px;
+    color: #5ED680;
+
 }
 
 /* accordion styling */
 .accordion {
     width: 100%;
-    height: 100%;
+    max-height: 100%;
     background-color: #323232;
     margin: 0 15px;
     padding:  50px;
     border-radius: 20px;
+    margin-bottom: 40px;
     
 }
 .accordion  .accordion-content {
     
     border-left: 2px solid white;
-    overflow: hidden;
+    overflow-y: hidden;
     margin-bottom: 5px;
     width: 100%;
 }
@@ -79,28 +79,13 @@
 }
 .accordion-content .description{
     padding: 0 15px;
-    font-size: 16px;
+    font-size: 17px;
     color:white ;
     height: 0;
     font-weight: 400;
     transition: all 0.2s;
     margin-bottom: 0;
 
-}
-
-/* button styling */
-.button {
-    display: flex;
-    width: 150px;
-    height: 50px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    background-color: #1E9D42;
-    color: white;
-    margin-top: 40px;
-    margin-left: 10px;
-    border-radius: 8px;
 }
 
 /* Images styling */
@@ -135,7 +120,63 @@
     top: 0;
     left: 10%;
 }
+.down_sec {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 25px;
+    font-weight: 900;
+}
+.down_sec p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 450;
+}
+/* button styling */
+.button {
+    padding: 15px 70px;
+    outline: solid #5ED680 1px;
+    border-radius: 15px;
+}
 a {
     text-decoration: none;
-    font-size: 20px;
+    text-align: center;
+    color: #5ED680;
+    font-size: 18px;
+}
+a:hover {
+    background-color: #5ED680;
+    color: white;
+}
+
+/* mobile view */
+
+@media only screen and (max-width: 659px) {
+    html,body {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    .bold {
+        color: #333;
+        font-size: 60px;
+    }
+    .accordion {
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+    .accordion-content header .title {
+        font-size: 18px;
+    }
+    .accordion-content .description{
+        transition: all 0.5s;
+    
+    }
+    
 }
