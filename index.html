@@ -32,10 +32,44 @@
 
 </head>
 <body>
-   <!-- Hero -->
-   <main id="#hero" class="hero">
+    <!-- Navigation and Header -->
+    <!-- <header>
+        <nav class="navbar navbar-expand-lg w-100 py-3 shadow-sm active" style="border-bottom:1px solid #5ED680;">
+            <div class="container-fluid">
+              <a class="navbar-brand text-center cendme-title" href="#" style="font-size:30px;margin-left:90px;color:#1E9D42;font-weight:bolder;">CendMe</a>
+              <button class="navbar-toggler custom-toggler" style="border:none;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="mx-auto">
+                <ul class="navbar-nav mb-2 mb-lg-0 nav-transition" style="gap:50px;">
+                  <li class="nav-item border-lenght">
+                    <a class="nav-link active"  aria-current="page" href="index.html" style="color:#1E9D42; border-bottom:1px solid #5ED680">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html" style="color:black;">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color:black; ">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color:black; ">FAQs</a>
+                  </li>
+                </ul>
+                </div>
+                <form class="d-flex" role="search">
+                  <button class="btn btn-outline-success" type="submit" style="margin-right:90px; color:#1E9D42;font-weight:bolder;">Download Now</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header> -->
+    <!-- End Navigation and Header -->
+
+    <!-- Hero -->
+    <main id="#hero" class="hero">
         <div class="container-sm py-5">            
-            <div class="hero-bg mt-5">
+            <div class="hero-bg">
                 <div class="rec-52 position-absolute">
                     <img src="./Assets/IMG/Rectangle 52.png" alt="Rectangle 52" class="w-100 h-100">
                 </div>  
@@ -101,9 +135,224 @@
                 </div> 
             </div>         
         </div>
-   </main>
-   <!--End Hero -->
- 
+    </main>
+    <!--End Hero -->
+
+    <!-- How it works section  -->
+    <!-- <section id="howItWorks">
+    <div class="container">
+        <div class="text-center mt-5">
+            <h2 class="fw-bold fs-5">How it Works</h2>
+            <p class="fw-medium fs-6 mb-4 info">Download CendMe from playstore, create an errand, track it when
+                it is being delivered</p>
+        </div>
+        <div class="">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="sender-tab" data-bs-toggle="tab"
+                        data-bs-target="#sender-tab-pane" type="button" role="tab"
+                        aria-controls="sender-tab-pane" aria-selected="true">Sender <i
+                            class="ms-2 fa-solid fa-location-arrow"></i></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="errander-tab" data-bs-toggle="tab"
+                        data-bs-target="#errander-tab-pane" type="button" role="tab"
+                        aria-controls="errander-tab-pane" aria-selected="false">Errander <i
+                            class="ms-2 fa-solid fa-cart-shopping"></i></button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="sender-tab-pane" role="tabpanel"
+                    aria-labelledby="sender-tab" tabindex="0">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="sn-container text-end mx-5">
+                            <p class="d-flex flex-column align-items-end">
+                                <span class="sn">1</span>
+                                <span class="fw-bold fs-4">Create an Errand</span>
+                                <span class="fw-lighter sub">Input your task query,input the necessary information and upload the
+                                    errand
+                                    information</span>
+                            </p>
+                            <p class="d-flex flex-column align-items-end">
+                                <span class="sn">2</span>
+                                <span class="fw-bold fs-4">Agree on a Price</span>
+                                <span class="fw-normal sub">Agree on price with the errander and pay with whichever mode you
+                                    prefer</span>
+                            </p>
+                        </div>
+                        <div class="mx-4 mt-4">
+                            <img class="" src="./Assets/IMG/how-it-works/mobile-app-1.png" />
+                        </div>
+                        <div class="sn-container mx-3">
+                            <p class="d-flex flex-column track">
+                                <span class="sn">3</span>
+                                <span class="fw-bold fs-4">Real time tracking</span>
+                                <span>Track your errands in real time and get notified when they're
+                                    complete.</span>
+                            </p>
+                            <p class="d-flex flex-column rate">
+                                <span class="sn">4</span>
+                                <span class="fw-bold fs-4">Pay and Rate</span>
+                                <span>Pay with cash or card and rate your Errander</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="errander-tab-pane" role="tabpanel" aria-labelledby="errander-tab"
+                    tabindex="0">
+
+                    <div class="d-flex align-items-center">
+                        <div class="mx-4">
+                            <img class="" src="./Assets/IMG/how-it-works/erranda-mobile.png" />
+                        </div>
+                        <div class="sn-container ms-5">
+                            <p class="d-flex flex-column">
+                                <span class="sn">1</span>
+                                <span class="fw-bold fs-4 mt-2">Receive Errand Request</span>
+                                <span class=" fs-6 errand">You get an errand request from a sender and their location and errand information is displayed.</span>
+                            </p>
+                            <div class="d-flex">
+
+                                <p class="d-flex flex-column">
+                                    <span class="sn">2</span>
+                                    <span class="fw-bold fs-4 mt-2">Accept Errand </span>
+                                    <span class="fs-6 errand">Discuss the price with the sender and accept the errand for delivery</span>
+                                </p>
+                                <p class="d-flex flex-column ms-5">
+                                    <span class="sn">3</span>
+                                    <span class="fw-bold fs-4 mt-2">Receive & Deliver</span>
+                                    <span class="fs-6 errand">Pickup errand from the location and make the swift delivery</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="download">
+        <div class="container">
+            <div class="download-content">
+                <div class="left">
+                    <h3 class="pop fw-bold fs-3 mb-4">The CendMe app is a new groundbreaking innovation</h3>
+                    <p class="text-white fs-5 mb-4">CendMe Mobile app helps people who need a helping hand to run errands and also help people who are short on cash to run errands and get some cash.</p>
+                    <a href="#"><button type="button" class="btn text-white px-5 py-3 fw-bold">Download APK</button></a>
+                </div>
+                <div class="img-cont">
+                    <img src="./Assets/IMG/how-it-works/mobile-app-2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- End How it works section -->
+
+    <!-- Newsletter section -->
+     <!-- <section style="margin-top:30px;" class="newsletter-sec">
+        <div class=" px-4 text-center" style="background-color: rgb(54, 54, 54); color:whitesmoke; height:361px;">
+          <div class="row gx-5">
+            <div class="col">
+             <div class="p-3">
+              <h1 class="newsletter-header" style="font-size:48px; margin-top:30px;line-height:60px;text-align:center;width:60%;margin-left: 20%;font-weight: bold;" >Join our newsletter to get the latest guides!</h1>
+             </div>
+            </div>
+            
+          </div>
+      
+          <div class="row gx-5">
+            <div class="col">
+             <div class="p-5">
+              <form>
+                <div class="flex border w-50 input-container" style="display: flex; flex-direction: column; margin-left:25%;border-radius: 40px; border: none !important;">
+                  <img src="./Assets/IMG/sms.png" alt="icon" width="20" class="sms-icon"/>
+                  <input class="input-email" type="email" placeholder="Enter your email" required style="padding:20px;border-radius: 40px; padding-left: 50px;">
+                  <div>
+                    <button type="submit" class="input-button">Send Message</button>
+                  </div>
+                </div>
+              </form>
+             </div>
+            </div>
+            
+          </div>
+        </div>
+        
+       </section>
+       <section class="wave-sec">
+        <div>
+          <img  src="./Assets/IMG/Wave.png" alt="wave" style="width:100%;" />
+        </div>
+       </section>
+    <!-- End Newsletter section -->
+       
+     <!--Footer section-->
+     <!-- <section>
+        <footer>
+          <div class="container-fluid ">
+            <div class="container px-4 " style="gap: 35px;">
+              <div class="row gx-5">
+                <div class="col" style="margin-left: 40px;">
+                 <div class="p-5 first-footer-col">
+                  <h1 style="color:#1E9D42; font-weight: bolder; margin-right:25%;margin-top:20px;">CendMe</h1>
+                  <p style="line-height: 30px;margin-top: 30px;width:130%;">Get things done without lifting a finger. Life is too short to run errands. Let us do it for you. Sign up for CendMe today and start enjoying your free time.</p>
+                 </div>
+                 <div class="d-flex ms-5 first-footer-icons" style="margin-top: -12%;gap:40px;">
+                  <img src="./Assets/IMG/1.png" alt="twitter icon" width="20" height="18"/>
+                  <img src="./Assets/IMG/logo-fb-simple 2.png" alt="facebook icon"/>
+                  <img src="./Assets/IMG/logo-instagram 1.png" alt="instagram icon"/>
+                </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 sec-footer-col" style="margin-left: 90px;">
+                    <h6 style="color:#1E9D42;margin-top: 60px;font-weight: bolder;">COMPANY</h6>
+                    <div style="margin-top: 50px;">
+                    <p>About</p>
+                    <p>Features</p>
+                    <p>How it Works</p>
+                    <p>Become an Errander</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 third-footer-col" style="margin-left: 90px;" >
+                    <h6 style="color: #1E9D42;margin-top: 60px;font-weight: bolder;">HELP</h6>
+                    <div style="margin-top: 50px;">
+                      <p>Customer Support</p>
+                      <p>Delivery Details</p>
+                      <p>Terms & Conditions</p>
+                      <p>Privacy Policy</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container px-4  w-50 copyright-nav" style="margin-left: 14%; margin-bottom:40px;margin-top: 60px;">
+              <div class="row" style="font-size: 14px; cursor: pointer;">
+                <div class="col">
+                  <p>About Us</p>
+                 </div>
+                 <div class="col">
+                  <p>Contact</p>
+                 </div>
+                 <div class="col">
+                  <p>Privacy policy</p>
+                 </div>
+                 <div class="col">
+                  <p>Terms of Use</p>
+                 </div>
+              </div>
+            </div>
+            <!--right containing copyright-->
+            <!-- <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center copyright-text">
+              <p class="right-copyright">&copy 2023 All Rights Reserved</p>
+            </div>
+          </div>
+        </footer>
+       </section> - -->
+       <!--<section style="background-color:rgb(54, 54, 54); height:30vh;"> </section>-->
+       <!-- End Footer section -->
+
     <!-- bootsrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
