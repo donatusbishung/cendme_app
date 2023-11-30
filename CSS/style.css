@@ -47,13 +47,13 @@
     position: absolute;
     top: 0;
     right: 0;
-    height: 80%;
+    height: 75%;
     width:30%;
     border-radius: 40px;
     border: none;
-    margin-top: 7px;
+    margin-top: 9px;
     margin-bottom: 5px;
-    margin-right: 7px;
+    margin-right: 9px;
     color: white;
     background-color: #1E9D42;
 
@@ -109,48 +109,66 @@ input:focus {
         height: 20vh;
     }
     .newsletter-header {
-        width: 100% !important;
+        width: 150% !important;
         position: relative;
-        left: -20%;
+        left: -45%;
+        font-size:28px !important;
+        padding-right:40px;
+        padding-left: 40px;
+        padding-top: 40px;
+        line-height: 40px !important;
+        
     }
     .input-container {
-        width: 130% !important;
-        left: -39%;
+        width: 140% !important;
+        left: -45%;
     }
     .input-email {
         padding-left: 40px !important; 
     }
+    .input-button {
+        width: 40%;
+    }
 
     /* Footer section */
+    .get-things-done {
+        width: 100% !important;
+    }
     .first-footer-col {
-        margin-top: -50%;
-        margin-left: -38%;
+        margin-top: -40%;
+        margin-left: -15%;
+        
     }
     .first-footer-icons {
         position: relative;
-        left: -35%;
+        left: -15%;
     }
     .sec-footer-col {
         position: relative;
-        left: -35%;
+        left: -20%;
         top: -5%;
     }
     .third-footer-col {
         position: relative;
-        left: -35%;
+        left: -20%;
         top: -20%;
     }
     .copyright-nav {
-        width: 100% !important;
-        position: relative;
-        left: -15%;
         margin-top: -10% !important;
+        padding-left: 15px !important; 
+        column-gap: 50% !important;
+        margin-left: 16% !important;
+        opacity: 0.7;
+        white-space: nowrap;
+        width:70% !important;
+        text-align: center;
     }
+    
     .copyright-text {
         position: relative;
-        top: -60%;
-        left: -15%;
-        margin-top:50px !important;
+        top: -50%;
+        left: -12%;
+        padding: 5px 40px !important;
     }
 } 
 
@@ -195,10 +213,13 @@ input:focus {
     }
     .copyright-nav {
         width: 60% !important;
+        margin-left: 21% !important;
+        opacity: 0.7;
     }
     .copyright-text {
         position: absolute;
-        right: -13%;
+        left: -24%;
+        bottom: -19%;
         margin-top: -5% !important;
     }
 }
