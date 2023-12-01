@@ -51,6 +51,7 @@
     overflow-y: hidden;
     margin-bottom: 5px;
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .accordion-content.open {
