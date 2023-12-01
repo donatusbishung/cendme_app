@@ -216,12 +216,20 @@ input:focus {
         left: -15%;
         margin-top:50px !important;
     }
+
+    .small-screens {
+        display: none;
+    }
+
+    .swiper-slide {
+        margin-left: 4px !important;
+    }
 } 
 
 
 /* Tablet responsiveness */
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 760px) and (max-width: 1023px) {
 
     /* Header section */
     .cendme-title {
@@ -264,5 +272,9 @@ input:focus {
         position: absolute;
         right: -13%;
         margin-top: -5% !important;
+    }
+
+    .small-screens {
+        display: none;
     }
 }
