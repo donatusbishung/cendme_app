@@ -309,6 +309,7 @@ textarea::placeholder {
     .contact-inf {
         width: 100%;
         border-radius: 0;
+        height: 464px;
     }
     .head {
         font-size: 28px;
@@ -340,6 +341,9 @@ textarea::placeholder {
     .fname,
     .email {
         width: 100%;
+    }
+    label {
+        font-size: 14px;
     }
     .hero .btn a {
         width: 100%;
