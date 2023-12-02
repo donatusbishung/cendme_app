@@ -82,9 +82,9 @@ text-align: left;
     display: flex;
     justify-content: flex-end;
     padding: 0;
-    border: 3px solid blue;
     margin: 0;
     width: auto;
+    position: absolute;
 }
 .el {
     height: 70px;
