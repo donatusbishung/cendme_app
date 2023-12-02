@@ -291,13 +291,21 @@ textarea::placeholder {
         margin-left: 10px;
         width: 50%;
     }
-}
-
-@media (min-width: 769px) {
-    /* Styles to override responsiveness for larger screens */
-    body {
-        max-width: 1200px; /* Set a maximum width for larger screens */
-        margin: 0 auto; /* Center the content */
+    .hero {
+        border: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
-
+    .hero-bod {
+        flex-direction: column;
+    }
+    .contact-inf {
+        width: 100%;
+        border-radius: 0;
+    }
+    .hero form {
+        width: 100%;
+        padding-left: 20px;
+    }
 }
