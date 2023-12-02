@@ -57,6 +57,7 @@ text-align: left;
     height: 504px;
     overflow: hidden;
     border-radius: 8px;
+    position: relative;
 }
 .phone {
     display: flex;
@@ -85,6 +86,10 @@ text-align: left;
     margin: 0;
     width: auto;
     position: absolute;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    border: 3px solid rgb(172, 64, 64);
 }
 .el {
     height: 70px;
@@ -93,7 +98,6 @@ text-align: left;
 }
 .el1 {
     height: 140px;
-    position: absolute;
    
 }
 .social ul  {
