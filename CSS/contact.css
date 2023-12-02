@@ -87,18 +87,23 @@ text-align: left;
     width: auto;
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
     background: transparent;
-    border: 3px solid rgb(172, 64, 64);
+    height: 180px;
+    background-color: wheat;
 }
 .el {
-    height: 70px;
-    bottom: 0;
-    right: 0;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 3px solid brown;
 }
 .el1 {
     height: 140px;
-   
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .social ul  {
     list-style: none;
