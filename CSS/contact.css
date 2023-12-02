@@ -276,5 +276,18 @@ textarea::placeholder {
 
 
 @media  screen and (max-width: 430px) {
-    
+    . nav-colla {
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 769px) {
+    /* Styles to override responsiveness for larger screens */
+    body {
+        max-width: 1200px; /* Set a maximum width for larger screens */
+        margin: 0 auto; /* Center the content */
+    }
+
 }
