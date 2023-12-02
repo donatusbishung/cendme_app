@@ -355,6 +355,7 @@ textarea::placeholder {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 0;
     }
     .cta h1 {
         font-size: 22px;
@@ -388,6 +389,10 @@ textarea::placeholder {
     .icon img {
         width: 10px;
         height: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
     .wave {
         width: 100%;
