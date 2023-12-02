@@ -369,6 +369,12 @@ textarea::placeholder {
     .input-container input::placeholder {
         font-size: 12px;
     }
+    .invite-btn {
+        width: 100px;
+        border: 23px;
+        font-size: 14px;
+        font-weight: 400;
+    }
     .wave {
         width: 100%;
     }
