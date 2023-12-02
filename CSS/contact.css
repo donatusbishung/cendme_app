@@ -369,4 +369,7 @@ textarea::placeholder {
     .input-container input::placeholder {
         font-size: 12px;
     }
+    .wave {
+        width: 100%;
+    }
 }
