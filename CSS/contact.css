@@ -276,6 +276,9 @@ textarea::placeholder {
 
 
 @media  screen and (max-width: 430px) {
+    body {
+        overflow-x: hidden;
+    }
     .nav-colla {
         display: flex; 
         flex-direction: column;
@@ -300,12 +303,30 @@ textarea::placeholder {
     .hero-bod {
         flex-direction: column;
     }
+    .head {
+        font-size: 25px;
+    }
     .contact-inf {
         width: 100%;
         border-radius: 0;
     }
+    .head {
+        font-size: 25px;
+    }
     .hero form {
         width: 100%;
         padding-left: 20px;
+        margin-bottom: 50px;
+    }
+    .name {
+        flex-direction: column;
+    }
+    .fname,
+    .email {
+        width: 100%;
+    }
+    .hero .btn a {
+        width: 100%;
+        margin: 0;
     }
 }
