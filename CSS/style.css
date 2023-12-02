@@ -49,14 +49,14 @@
     right: 0;
     height: 75%;
     width:30%;
-    border-radius: 40px;
+    border-radius: 99px;
     border: none;
-    margin-top: 9px;
+    margin-top: 10px;
     margin-bottom: 5px;
     margin-right: 9px;
     color: white;
-    background-color: #1E9D42;
-
+    background-color: #5ED680;
+    
 }
 input:focus {
     outline: none;
@@ -65,8 +65,8 @@ input:focus {
 
 .sms-icon {
     position: absolute;
-    top: 35%;
-    left: 3%;
+    top: 37%;
+    left: 4%;
 
 }
 /* copyright styling */
@@ -120,15 +120,17 @@ input:focus {
         
     }
     .input-container {
-        width: 140% !important;
+        width:140% !important;
         left: -45%;
+        
     }
     .input-email {
-        padding-left: 40px !important; 
+        padding-left: 40px !important;
     }
     .input-button {
-        width: 40%;
+       width:40%;
     }
+
 
     /* Footer section */
     .get-things-done {
