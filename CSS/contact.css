@@ -279,6 +279,9 @@ textarea::placeholder {
     body {
         overflow-x: hidden;
     }
+    nav {
+        margin-bottom: 25px;
+    }
     .nav-colla {
         display: flex; 
         flex-direction: column;
@@ -303,21 +306,28 @@ textarea::placeholder {
     .hero-bod {
         flex-direction: column;
     }
-    .head {
-        font-size: 25px;
-    }
     .contact-inf {
         width: 100%;
         border-radius: 0;
     }
     .head {
         font-size: 28px;
+        line-height: 35.26px;
     }
     .sub {
         font-size: 17px;
+        line-height: 17px;
     }
     .hx {
         font-size: 18px;
+    }
+    .sx {
+        font-size: 14px;
+        width: 70%;
+    }
+    .infos {
+        padding-top: 25px;
+        padding-bottom: 60px;
     }
     .hero form {
         width: 100%;
