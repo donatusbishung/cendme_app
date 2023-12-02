@@ -349,6 +349,9 @@ textarea::placeholder {
         width: 100%;
         margin: 0;
     }
+    .cta {
+        width: 100%;
+    }
     .cta h1 {
         font-size: 22px;
         width: 80%;
