@@ -385,12 +385,13 @@ textarea::placeholder {
         right: 1%;
         text-transform: none;
     }
-    .icon {
+    .icon img {
         width: 10px;
         height: 10px;
     }
     .wave {
         width: 100%;
         margin-bottom: 60px;
+        margin-top: 0;
     }
 }
