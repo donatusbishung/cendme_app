@@ -18,10 +18,210 @@
 }
 
 .pri-bg-col {
-    background-color: rgba(0, 0, 0, 0.80);
+    background-color:  rgba(0, 0, 0, 0.80);
 }
+
 /* End Global Styling */
-/* 
-    Please make sure you indicate using comments, the area or section you are styling
-    Don't style inside another contributor's section
- */
+
+
+/* Header styling */
+.active {
+    transition: all ease-in-out 0.5s;
+}
+.nav-transition {
+    transition: all ease-in-out 0.5s;
+}
+
+.nav-transition li:hover {
+    background-color:#5ED680;
+    transition: all ease-in-out 0.2s;
+    border-radius: 25px;
+    padding: 3px 12px;
+}
+
+/* Newsletter styling*/
+.input-container {
+    position: relative;
+}
+.input-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 75%;
+    width:30%;
+    border-radius: 99px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 9px;
+    color: white;
+    background-color: #5ED680;
+    
+}
+input:focus {
+    outline: none;
+}
+
+
+.sms-icon {
+    position: absolute;
+    top: 37%;
+    left: 4%;
+
+}
+/* copyright styling */
+
+.right-copyright {
+    position: absolute;
+    right: 15%;
+    bottom: -60%;
+    font-size: 14px;
+}
+
+
+
+/* Mobile responsiveness*/
+
+@media only screen and (max-width: 767px) {
+
+    /* header section */
+    .cendme-title {
+        position: relative;
+        right: 22%;
+    }
+
+    .border-lenght {
+        margin-top: 15px;
+    }
+
+    .nav-transition li:hover {
+        width: 25%;
+    }
+
+    /* newsletter section */
+    .newsletter-sec {
+        height: 70vh;
+        background-color: rgb(54, 54, 54) !important;
+        
+    }
+
+    .wave-sec {
+        height: 20vh;
+    }
+    .newsletter-header {
+        width: 150% !important;
+        position: relative;
+        left: -45%;
+        font-size:28px !important;
+        padding-right:40px;
+        padding-left: 40px;
+        padding-top: 40px;
+        line-height: 40px !important;
+        
+    }
+    .input-container {
+        width:140% !important;
+        left: -45%;
+        
+    }
+    .input-email {
+        padding-left: 40px !important;
+    }
+    .input-button {
+       width:40%;
+    }
+
+
+    /* Footer section */
+    .get-things-done {
+        width: 100% !important;
+    }
+    .first-footer-col {
+        margin-top: -40%;
+        margin-left: -15%;
+        
+    }
+    .first-footer-icons {
+        position: relative;
+        left: -15%;
+    }
+    .sec-footer-col {
+        position: relative;
+        left: -20%;
+        top: -5%;
+    }
+    .third-footer-col {
+        position: relative;
+        left: -20%;
+        top: -20%;
+    }
+    .copyright-nav {
+        margin-top: -10% !important;
+        padding-left: 15px !important; 
+        column-gap: 50% !important;
+        margin-left: 16% !important;
+        opacity: 0.7;
+        white-space: nowrap;
+        width:70% !important;
+        text-align: center;
+    }
+    
+    .copyright-text {
+        position: relative;
+        top: -50%;
+        left: -12%;
+        padding: 5px 40px !important;
+    }
+} 
+
+
+/* Tablet responsiveness */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* Header section */
+    .cendme-title {
+        position: relative;
+        right:10%;
+    }
+    .border-lenght {
+        margin-top:15px;
+    }
+    .nav-transition li:hover {
+        width:12%;
+    }
+
+    /*Newsletter section */
+    .newsletter-sec {
+        height: 40vh;
+       /* background-color: rgb(54, 54, 54);*/
+       background-color: #000000CC;
+    }
+    .newsletter-header {
+        width: 100% !important;
+        position: relative;
+        left: -20%;
+        margin-top: 15% !important;
+    }
+    .input-container {
+        width: 70% !important;
+        left: -10%;
+    }
+
+    /* Footer section */
+    .third-footer-col {
+        position: relative;
+        left: -3%;
+    }
+    .copyright-nav {
+        width: 60% !important;
+        margin-left: 21% !important;
+        opacity: 0.7;
+    }
+    .copyright-text {
+        position: absolute;
+        left: -24%;
+        bottom: -19%;
+        margin-top: -5% !important;
+    }
+}
