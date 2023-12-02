@@ -276,10 +276,20 @@ textarea::placeholder {
 
 
 @media  screen and (max-width: 430px) {
-    . nav-colla {
+    .nav-colla {
         display: flex; 
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: flex-start;
+        padding-left: 15px;
+    }
+    .nav-bt {
+        display: flex;
+        justify-content: flex-start; 
+        width: 100%;
+    }
+    .nav-bt button {
+        margin-left: 10px;
+        width: 50%;
     }
 }
 
