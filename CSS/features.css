@@ -43,20 +43,10 @@
         line-height: 19.36px;
     }
 
-    .card {
-        background-color: #92E3A933;
-        width: 20rem !important;
-        height: 20rem !important;
-    }
-
     .download-buttons {
         cursor: pointer;
     }
 
-    .image-resize {
-        width: 185px;
-        height: auto;
-    }
 }
 
 /* Header styling */
@@ -221,9 +211,12 @@ input:focus {
         display: none;
     }
 
-    .swiper-slide {
-        margin-left: 4px !important;
+    .downloads img {
+        width: 250.96px;
+        height: 35.96px;
+        /* display: none; */
     }
+
 } 
 
 
@@ -277,4 +270,31 @@ input:focus {
     .small-screens {
         display: none;
     }
+}
+
+/*  swiper style */
+.swiper-slide .card {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #92E3A933;
+    /* text-align: center; */
+    border: none;    
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.card .image {
+    width: 248px;
+    margin: 0 auto;
+    /* height: 175px; */
+}
+
+.card .bro-image {
+    width: 205px;
+    height: 105.64;
 }
