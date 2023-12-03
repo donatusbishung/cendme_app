@@ -25,18 +25,29 @@
 
 
 /* Header styling */
-.active {
-    transition: all ease-in-out 0.5s;
-}
-.nav-transition {
-    transition: all ease-in-out 0.5s;
-}
 
-.nav-transition li:hover {
-    background-color:#5ED680;
-    transition: all ease-in-out 0.2s;
-    border-radius: 25px;
-    padding: 3px 12px;
+.nav-link {
+    transition: border-bottom 0.5s all ease-in-out;
+    border-bottom: 2px solid transparent !important;
+    padding-bottom: 2px !important
+    
+}
+.nav-link:hover,
+.nav-link:active {
+    border-bottom-color: #5ED680 !important;
+    color:#5ED680 !important;
+    transition: border-bottom 0.5s all ease-in-out !important;
+}
+.nav-link:hover {
+    border-bottom-width: 5% !important;
+}
+.nav-btn {
+    font-size: 14px;
+    transition: font-size 0.3s ease !important;
+}
+.nav-btn:hover {
+    font-size:16px !important;
+    transition: font-size 0.3s ease !important;
 }
 
 /* Newsletter styling*/
@@ -71,11 +82,17 @@ input:focus {
 }
 /* copyright styling */
 
-.right-copyright {
+/*.right-copyright {
     position: absolute;
     right: 15%;
     bottom: -60%;
     font-size: 14px;
+}*/
+
+.right-copyright {
+    display: flex;
+    margin-top: -18%;
+    margin-right: -220%;
 }
 
 
@@ -94,8 +111,14 @@ input:focus {
         margin-top: 15px;
     }
 
-    .nav-transition li:hover {
-        width: 25%;
+    .nav-link:hover {
+        width: 12%;
+    }
+    .contact-nav-link:hover {
+        width:24%;
+    }
+    .nav-btn {
+        margin-top: 20px;
     }
 
     /* newsletter section */
@@ -134,7 +157,7 @@ input:focus {
 
     /* Footer section */
     .get-things-done {
-        width: 100% !important;
+        width: 90% !important;
     }
     .first-footer-col {
         margin-top: -40%;
@@ -147,12 +170,12 @@ input:focus {
     }
     .sec-footer-col {
         position: relative;
-        left: -20%;
+        left: -19%;
         top: -5%;
     }
     .third-footer-col {
         position: relative;
-        left: -20%;
+        left: -19%;
         top: -20%;
     }
     .copyright-nav {
@@ -162,15 +185,15 @@ input:focus {
         margin-left: 16% !important;
         opacity: 0.7;
         white-space: nowrap;
-        width:70% !important;
+        width:68% !important;
         text-align: center;
     }
     
+    
+
     .copyright-text {
-        position: relative;
-        top: -50%;
-        left: -12%;
-        padding: 5px 40px !important;
+        margin-left: -111%;
+        margin-top: 60px;
     }
 } 
 
@@ -187,8 +210,15 @@ input:focus {
     .border-lenght {
         margin-top:15px;
     }
-    .nav-transition li:hover {
-        width:12%;
+    .nav-link:hover {
+        width: 10%;
+    }
+    .contact-nav-link:hover {
+        width:20%;
+    }
+    
+    .nav-btn {
+        margin-top:20px;
     }
 
     /*Newsletter section */
@@ -219,9 +249,7 @@ input:focus {
         opacity: 0.7;
     }
     .copyright-text {
-        position: absolute;
-        left: -24%;
-        bottom: -19%;
-        margin-top: -5% !important;
+        margin-left: -110%;
+        margin-top: 14%;
     }
 }
