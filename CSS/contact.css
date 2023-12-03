@@ -191,7 +191,7 @@ textarea::placeholder {
     justify-content: flex-end;
     align-items: flex-end;
 }
-.btn a {
+.btn button {
     padding: 15px;
     border-radius: 15px;
     background: #5ED680;
@@ -259,6 +259,9 @@ textarea::placeholder {
 }
 .input-container  input::placeholder {
     padding-left: 45px;
+}
+form .name input {
+    padding: 10px 15px;
 }
 .icon {
     position: absolute;
@@ -345,7 +348,7 @@ textarea::placeholder {
     label {
         font-size: 16px;
     }
-    .hero .btn a {
+    .hero .btn button {
         width: 100%;
         margin: 0;
     }
