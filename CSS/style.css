@@ -40,27 +40,6 @@
 }
 
 /* Newsletter styling*/
-.input-container {
-    position: relative;
-}
-.input-button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 75%;
-    width:30%;
-    border-radius: 99px;
-    border: none;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    margin-right: 9px;
-    color: white;
-    background-color: #5ED680;
-    
-}
-input:focus {
-    outline: none;
-}
 
 
 .sms-icon {
