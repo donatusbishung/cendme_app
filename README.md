@@ -1,7 +1,7 @@
 # CendMe Website
 
 CendMe is a web application designed to streamline and simplify daily errands, making your life easier and organized
-
+ 
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
@@ -17,7 +17,7 @@ Welcome to the CendMe Website Project!! This is a website developed by our team 
 ## Features
 - **User-friendly Interface:** Intuitive design for a seamless user experience.
 - **Collaboration:** Share tasks and collaborate with others for efficient task completion.
-**Notification System:** Receive timely notifications to stay on top of your schedule.
+- **Notification System:** Receive timely notifications to stay on top of your schedule.
 - **Task Management:** Easily create, organize, and manage your daily errands and tasks.
 
 ## Technologies Used
