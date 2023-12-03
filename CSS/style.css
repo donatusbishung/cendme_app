@@ -27,7 +27,7 @@
 /* Header styling */
 
 .nav-link {
-    transition: border-bottom 0.5s all ease-in-out;
+    transition: border-bottom 0.4s all ease-in-out;
     border-bottom: 2px solid transparent !important;
     padding-bottom: 2px !important
     
@@ -81,13 +81,6 @@ input:focus {
 
 }
 /* copyright styling */
-
-/*.right-copyright {
-    position: absolute;
-    right: 15%;
-    bottom: -60%;
-    font-size: 14px;
-}*/
 
 .right-copyright {
     display: flex;
