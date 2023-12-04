@@ -49,33 +49,31 @@
 
 }
 
+
 /* Header styling */
-.active {
-    transition: all ease-in-out 0.5s;
-}
-.nav-transition {
-    transition: all ease-in-out 0.5s;
-}
 
-.nav-transition li:hover {
-    background-color:#5ED680;
-    transition: all ease-in-out 0.2s;
-    border-radius: 25px;
+.nav-link {
+    transition: border-bottom 0.4s all ease-in-out;
+    border-bottom: 2px solid transparent !important;
+    padding-bottom: 2px !important
+    
 }
-
-.btn-nav {
+.nav-link:hover,
+.nav-link:active {
+    border-bottom-color: #5ED680 !important;
+    color:#5ED680 !important;
+    transition: border-bottom 0.5s all ease-in-out !important;
+}
+.nav-link:hover {
+    border-bottom-width: 5% !important;
+}
+.nav-btn {
     font-size: 14px;
-    color: #5ED680;
-    border: 1px solid #5ED680;
-    padding: .5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    outline: #5ED680;
+    transition: font-size 0.3s ease !important;
 }
-
-.btn-nav:hover {
-    color: #ffffff;
-    background-color: #5ED680;
+.nav-btn:hover {
+    font-size:16px !important;
+    transition: font-size 0.3s ease !important;
 }
 
 /* Newsletter styling*/
@@ -86,16 +84,16 @@
     position: absolute;
     top: 0;
     right: 0;
-    height: 80%;
+    height: 75%;
     width:30%;
-    border-radius: 40px;
+    border-radius: 99px;
     border: none;
-    margin-top: 7px;
+    margin-top: 10px;
     margin-bottom: 5px;
-    margin-right: 7px;
+    margin-right: 9px;
     color: white;
-    background-color: #1E9D42;
-
+    background-color: #5ED680;
+    
 }
 input:focus {
     outline: none;
@@ -104,33 +102,17 @@ input:focus {
 
 .sms-icon {
     position: absolute;
-    top: 35%;
-    left: 3%;
+    top: 37%;
+    left: 4%;
 
 }
 /* copyright styling */
 
 .right-copyright {
-    position: absolute;
-    right: 15%;
-    bottom: -60%;
-    font-size: 14px;
+    display: flex;
+    margin-top: -18%;
+    margin-right: -220%;
 }
-
-
-/* media querry */
-
-@media (max-width: 430px) {
-    .cendme-image {
-        width: 400px;
-        height: auto;
-    }  
-    
-    .listed-items {
-        /* font-size: 16px !important; */
-    }
-}
-
 
 
 
@@ -148,81 +130,113 @@ input:focus {
         margin-top: 15px;
     }
 
-    .nav-transition li:hover {
-        width: 25%;
+    .nav-link:hover {
+        width: 12%;
+    }
+    .contact-nav-link:hover {
+        width:24%;
+    }
+    .nav-btn {
+        margin-top: 20px;
     }
 
     /* newsletter section */
     .newsletter-sec {
-        height: 70vh;
+        /* height: 70vh; */
         background-color: rgb(54, 54, 54) !important;
         
+    }
+
+    .main-feature-h {
+        font-size: 22px !important;
+        line-height: 34.05px;
     }
 
     .wave-sec {
         height: 20vh;
     }
     .newsletter-header {
-        width: 100% !important;
+        width: 150% !important;
         position: relative;
-        left: -20%;
+        left: -45%;
+        font-size:28px !important;
+        padding-right:40px;
+        padding-left: 40px;
+        /* padding-top: 40px; */
+        line-height: 40px !important;
+        
     }
     .input-container {
-        width: 130% !important;
-        left: -39%;
+        width:140% !important;
+        left: -45%;
+        
     }
     .input-email {
-        padding-left: 40px !important; 
+        padding-left: 40px !important;
+    }
+    .input-button {
+       width:40%;
+    }
+
+    .cendme-image {
+        width: 350px;
+        height: 255.11px;
     }
 
     /* Footer section */
+    .get-things-done {
+        width: 90% !important;
+    }
     .first-footer-col {
-        margin-top: -50%;
-        margin-left: -38%;
+        margin-top: -40%;
+        margin-left: -15%;
+        
     }
     .first-footer-icons {
         position: relative;
-        left: -35%;
+        left: -15%;
     }
     .sec-footer-col {
         position: relative;
-        left: -35%;
+        left: -19%;
         top: -5%;
     }
     .third-footer-col {
         position: relative;
-        left: -35%;
+        left: -19%;
         top: -20%;
     }
     .copyright-nav {
-        width: 100% !important;
-        position: relative;
-        left: -15%;
         margin-top: -10% !important;
+        padding-left: 15px !important; 
+        column-gap: 50% !important;
+        margin-left: 16% !important;
+        opacity: 0.7;
+        white-space: nowrap;
+        width:68% !important;
+        text-align: center;
     }
-    .copyright-text {
-        position: relative;
-        top: -60%;
-        left: -15%;
-        margin-top:50px !important;
-    }
-
+    
     .small-screens {
         display: none;
     }
-
+    
     .downloads img {
-        width: 250.96px;
-        height: 35.96px;
+        width: 240.96px;
+        height: 50.96px;
         /* display: none; */
     }
 
+    .copyright-text {
+        margin-left: -111%;
+        margin-top: 60px;
+    }
 } 
 
 
 /* Tablet responsiveness */
 
-@media screen and (min-width: 760px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
     /* Header section */
     .cendme-title {
@@ -232,8 +246,15 @@ input:focus {
     .border-lenght {
         margin-top:15px;
     }
-    .nav-transition li:hover {
-        width:12%;
+    .nav-link:hover {
+        width: 10%;
+    }
+    .contact-nav-link:hover {
+        width:20%;
+    }
+    
+    .nav-btn {
+        margin-top:20px;
     }
 
     /*Newsletter section */
@@ -242,6 +263,7 @@ input:focus {
        /* background-color: rgb(54, 54, 54);*/
        background-color: #000000CC;
     }
+
     .newsletter-header {
         width: 100% !important;
         position: relative;
@@ -260,15 +282,12 @@ input:focus {
     }
     .copyright-nav {
         width: 60% !important;
+        margin-left: 21% !important;
+        opacity: 0.7;
     }
     .copyright-text {
-        position: absolute;
-        right: -13%;
-        margin-top: -5% !important;
-    }
-
-    .small-screens {
-        display: none;
+        margin-left: -110%;
+        margin-top: 14%;
     }
 }
 
@@ -297,4 +316,9 @@ input:focus {
 .card .bro-image {
     width: 205px;
     height: 105.64;
+}
+
+.swiper-button-next:after, 
+.swiper-button-prev:after {
+  font-size: 30px !important;
 }
