@@ -1,4 +1,4 @@
-const nav [
+const nav = [
     {
         name: "Home",
         id: 1,
@@ -21,7 +21,7 @@ const nav [
     {
         name: 'FAQ',
         id: 4,
-        link: 'faq.html',
+        link: 'faq.html'
 
     },
 ];
