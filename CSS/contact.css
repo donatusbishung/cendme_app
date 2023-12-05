@@ -267,11 +267,11 @@ form .name input {
 .icon {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 15px;
     bottom: 0;
     padding-top: 7px;
-    padding-left: 23px;
-    padding-right: 15px;
+    padding-left: 28px;
+    padding-right: 25px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -281,7 +281,8 @@ form .name input {
 
 
 @media  screen and (max-width: 430px) {
-    body {
+    body,
+    html {
         overflow-x: hidden;
     }
    
@@ -387,7 +388,7 @@ form .name input {
         border: 18px;
         font-size: 4px;
         font-weight: 50;
-        right: 11%;
+        right: 15%;
         text-transform: none;
         bottom: 20px;
         top: 20px;
@@ -400,7 +401,7 @@ form .name input {
     padding-top: 12px;
     padding-bottom: 3px;
     padding-left: 20px;
-    left: 3%;
+    left: 11%;
     margin-left: 10px;
    }
     
