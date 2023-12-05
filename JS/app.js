@@ -1,3 +1,35 @@
+/* header and navigation section */
+const nav [
+    {
+        name: "Home",
+        id: 1,
+        link: 'index.html',
+    },
+
+    {
+        name: 'about',
+        id: 2,
+        link: 'about.html'
+    },
+
+    {
+        name: 'contact us',
+        id: 3,
+        link: 'contact.html'
+
+    },
+
+    {
+        name: 'FAQ',
+        id: 4,
+        link: 'faq.html',
+
+    },
+];
+
+
+testimonial-page
+
 let mycounter = document.querySelector(".counter")
 
 let arr = [4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7]
@@ -45,3 +77,4 @@ loopArr(0)
 // // myDownloads.addEventListener('mousemove', downloadsCount(0))
 
 // downloadsCount(0)
+=======
