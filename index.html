@@ -16,6 +16,17 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- swiper js CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
     <!-- custom style -->
     <link rel="stylesheet" href="./css/style.css">
@@ -23,11 +34,81 @@
 </head>
 
 <body>
-    <!-- 
-        Please do well to make good use of COMMENTS.
-        Your ID and class names should be understandable.
-        
-     -->
+
+    <!-- Hero section-->
+    <main id="#hero" class="hero">
+        <div class="container-sm py-5">            
+            <div class="hero-bg">
+                <div class="rec-52 position-absolute">
+                    <img src="./Assets/IMG/Rectangle 52.png" alt="Rectangle 52" class="w-100 h-100">
+                </div> 
+                <div class="rec-52mobile">
+                    <img src="./Assets/IMG/Rectangle 52mobile.png" alt="Rectangle 52mobile">
+                </div> 
+                <div class="rec-53 bg-success d-sm-none position-absolute top-100">
+                    <img src="./Assets/IMG/Rectangle 53.png" alt="Rectangle 53" class="w-100 h-100 flipped-vertical">
+                </div>  
+            </div>
+            <div 
+                class="row pt-2 position-relative" 
+                data-aos="zoom-in-down"
+                data-aos-duration="2000"
+            >   
+                <div class="hero-left col-md-8 ps-5">                   
+                    <div class="div mt-5 ps-4"> 
+                        <h1 class="pt-4 display-5 fw-bolder">
+                            Enjoy a <span class="sec-col">Stress-Free</span> Life:</br> 
+                            Let Our App Take Care</br>
+                            of Your <span class="sec-col">Errands</span>
+                        </h1>
+                        <p>
+                            Schedule your errands in minutes and relax knowing</br> 
+                            that they'll be done on time and to your satisfaction. 
+                        </p>
+                        <div class="hero-apps py-4">
+                            <img src="./Assets/IMG/Apple.png" alt="App Store">
+                            <img src="./Assets/IMG/Google.png" alt="Google play">                            
+                        </div> 
+                        <div class="reviews-container col-md-6 bg-white mt-5 rounded-4 shadow">
+                            <div class="div d-flex justify-content-center align-items-center">
+                                <p class="m-3"><strong>15k</strong> reviews on</p>
+                                <div class="stars pri-col">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>   
+                                </div>  
+                            </div>
+                            <div class="div d-flex justify-content-center align-items-center ">
+                                <div class="div pb-3 pe-2">
+                                    <img src="./Assets/IMG/forward.png" alt="Forward Icon">
+                                </div>
+                                <div class="div px-3">
+                                    <h4><strong>4.9</strong></h4>
+                                </div>                              
+                                <div class="reviewers position-relative pe-4">
+                                    <img src="./Assets/IMG/Hero-Ellipse 2.png" alt="Hero-Ellipse 2">
+                                    <img src="./Assets/IMG/Hero-Ellipse 3.png" alt="Hero-Ellipse 3" class="position-absolute top-50 start-25 translate-middle">
+                                    <img src="./Assets/IMG/Hero-Ellipse 4.png" alt="Hero-Ellipse 4">
+                                    <img src="./Assets/IMG/Hero-Ellipse 5.png" alt="Hero-Ellipse 5" class="position-absolute top-50 start-25 translate-middle">
+                                    <img src="./Assets/IMG/Hero-Group1.png" alt="Hero-Group1" class="position-absolute top-50 translate-middle-y">
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <div class="vid-btn col-1 d-flex justify-content-center align-items-center position-absolute top-75 start-50 translate-middle pb-4">
+                        <img src="./Assets/IMG/Frame 1171276686.png" alt="Frame" class="position-relative bg-white">
+                        <i class="bi bi-caret-down-fill position-absolute fs-2"></i>
+                    </div>  
+                </div>          
+                <div class="hero-right col-md-4 pt-3"> 
+                    <img src="./Assets/IMG/iPhone 13 Mockup.png" alt="iPhone 13" class="w-100 h-100">
+                </div> 
+            </div>         
+        </div>
+    </main>
+    <!--End Hero -->
 
     <header></header>
 
@@ -144,9 +225,14 @@
     <footer></footer>
 
 
-
-    <!-- bootsrap js -->
+    <!-- bootsrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Aos script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+     AOS.init();
+    </script>
 
     <!-- custom js -->
     <script src="./JS/app.js"></script>

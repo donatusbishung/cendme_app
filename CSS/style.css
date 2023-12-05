@@ -1,14 +1,16 @@
+
+/* Global styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@200;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
 @import './sections/how-it-works.css';
+
 * {
     padding: 0;
     margin: 0;
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@200;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
-
-/* Global styling */
 
 .pri-col {
     color: #5ED680;
@@ -28,3 +30,71 @@
     Please make sure you indicate using comments, the area or section you are styling
     Don't style inside another contributor's section.
  */
+
+ /* Hero styling */
+ .rec-52 { 
+    width: 81%; 
+    position: relative; 
+}
+
+.rec-52mobile {
+    display: none;
+}
+
+.rec-53 {
+    position: absolute;
+    width: 1050px;
+}
+
+/* Mobile responsiveness*/
+
+@media only screen and (max-width: 767px) {
+
+.container {
+    height: auto;  
+}
+
+.rec-52 {
+    display: none;
+}
+
+.rec-53 {
+    display: none;
+}
+
+.hero-left h1 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 800;
+    
+}
+
+.hero-left p {
+    text-align: center;
+    font-size: 20px;
+    padding-right: auto;
+    padding-top: 10px;
+}
+
+.hero-apps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.reviews-container {
+    position: absolute;
+    transform: scale(0.3);
+}
+
+.hero-right {
+    margin-left: 0;
+}
+
+.vid-btn {
+    margin-top: 190%;
+}
+
+}
+    
