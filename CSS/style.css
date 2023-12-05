@@ -1,6 +1,9 @@
+
 /* Global styling */
 
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@200;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+@import './sections/how-it-works.css';
 
 * {
     padding: 0;

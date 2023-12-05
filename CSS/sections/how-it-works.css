@@ -1,0 +1,220 @@
+#howItWorks {
+    .info {
+        width: 310px;
+        margin: 0 auto;
+    }
+
+    .sn {
+        background-color: #1E9D42;
+        width: 60px;
+        height: 60px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .sn-container {
+        display: grid;
+        row-gap: 162px;
+    }
+
+    .sub-two {
+        font-size: 18px;
+        width: 250px;
+    }
+
+    .track {
+        margin-bottom: 40px;
+    }
+
+    /* .rate {
+        margin-bottom: 75px;
+    } */
+
+    .errand {
+        width: 200px;
+    }
+
+    .nav-tabs {
+        width: max-content;
+        margin: 0 auto;
+        justify-content: center;
+        margin-bottom: 30px;
+        border: 1px solid #5ED680;
+        border-radius: 25px;
+        padding: 8px;
+
+        .nav-link {
+            border: none;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 24px;
+            border-radius: 25px;
+            color: black;
+            min-width: 100px;
+
+            &.active {
+                background-color: #1E9D42;
+                color: #fff;
+            }
+        }
+    }
+
+    .download {
+        background-color: #000000CC;
+        margin-top: 200px;
+
+        .download-content {
+            display: flex;
+            .left {
+                width: 40%;
+            }
+
+            .pop {
+                color: #5ED680;
+                margin-top: 120px;
+            }
+
+            .btn {
+                background-color:#5ED680;
+                font-size: small;
+            }
+
+            .img-cont {
+                width: 60%;
+                margin-top: -70px;
+                & img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    /* mobile */
+    @media (max-width: 1024px) {
+        .container {
+            width: unset;
+        }
+
+        .sn {
+            font-size: 14px;
+            width: 40px;
+            height: 40px;
+        }
+
+        .sender-one {
+            flex-direction: column;
+        }
+
+        .sender-sub {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 40px;
+            margin: unset !important;
+        }
+
+        .sender-up {
+            align-items: start !important;
+            text-align: left !important;
+        }
+
+        .rate {
+            width: 50%;
+        }
+
+        .sub-one {
+            font-size: 16px !important;
+            margin: 8px 0;
+            /* width: unset; */
+        }
+        
+        .sub-two {
+        font-size: 12px;
+        font-weight: 400 !important;
+        width: unset;
+        }
+
+        .sender-down {
+            align-items: end;
+            text-align: right;
+        }
+
+        .track {
+            margin: unset;
+            width: 50%;
+        }
+
+        .img-box {
+            margin: 24px 0 !important;
+            width: 90%;
+            & img {
+                width: 100%;
+            }
+        }
+
+        .errand-sub {
+            flex-direction: column;
+        }
+
+        .img-holder {
+            width: 100%;
+            & img {
+                width: 100%;
+            }
+        }
+
+        .contain {
+            display: flex;
+            flex-direction: column;
+            margin-left: -20px !important;
+            row-gap: unset;
+        }
+
+        .contain-sub {
+            flex-direction: column;
+        }
+
+        .swift {
+            margin: unset !important;
+        }
+
+        .download {
+            margin-top: 100px;
+        }
+
+        .download-content {
+            flex-direction: column;
+            /* gap: 100px; */
+            .left {
+                width: 100% !important;
+                text-align: center;
+            }
+
+            .pop {
+                font-size: 22px;
+                /* text-align: center; */
+                margin-top: 60px !important;
+            }
+
+            .img-cont {
+                width: 100% !important;
+                margin-top: 70px !important;
+                margin-left: -20px;
+                & img {
+                    width: 100% !important;
+                }
+            }
+        }
+
+        
+
+        
+    }
+
+}

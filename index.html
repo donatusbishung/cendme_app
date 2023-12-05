@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +12,9 @@
     ">
 
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- bootstrap icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -31,6 +32,7 @@
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
+
 <body>
 
     <!-- Hero section-->
@@ -108,6 +110,120 @@
     </main>
     <!--End Hero -->
 
+    <header></header>
+
+    <main>
+        <section id="howItWorks">
+            <div class="container">
+                <div class="text-center mt-5">
+                    <h2 class="fw-bold fs-5">How it Works</h2>
+                    <p class="fw-medium fs-6 mb-4 info">Download CendMe from playstore, create an errand, track it when
+                        it is being delivered</p>
+                </div>
+                <div class="">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="sender-tab" data-bs-toggle="tab"
+                                data-bs-target="#sender-tab-pane" type="button" role="tab"
+                                aria-controls="sender-tab-pane" aria-selected="true">Sender <i
+                                    class="ms-2 fa-solid fa-location-arrow"></i></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="errander-tab" data-bs-toggle="tab"
+                                data-bs-target="#errander-tab-pane" type="button" role="tab"
+                                aria-controls="errander-tab-pane" aria-selected="false">Errander <i
+                                    class="ms-2 fa-solid fa-cart-shopping"></i></button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="sender-tab-pane" role="tabpanel"
+                            aria-labelledby="sender-tab" tabindex="0">
+                            <div class="d-flex align-items-center justify-content-center sender-one">
+                                <div class="sn-container text-end mx-5 sender-sub">
+                                    <p class="d-flex flex-column align-items-end rate">
+                                        <span class="sn">1</span>
+                                        <span class="fw-bold fs-4 sub-one">Create an Errand</span>
+                                        <span class="fw-lighter sub-two">Input your task query,input the necessary information and upload the
+                                            errand
+                                            information</span>
+                                    </p>
+                                    <p class="d-flex flex-column align-items-end rate sender-up">
+                                        <span class="sn">2</span>
+                                        <span class="fw-bold fs-4 sub-one">Agree on a Price</span>
+                                        <span class="fw-normal sub-two">Agree on price with the errander and pay with whichever mode you
+                                            prefer</span>
+                                    </p>
+                                </div>
+                                <div class="mx-4 mt-4 img-box">
+                                    <img class="" src="./Assets/IMG/how-it-works/mobile-app-1.png" />
+                                </div>
+                                <div class="sn-container mx-5 sender-sub">
+                                    <p class="d-flex flex-column track sender-down">
+                                        <span class="sn">3</span>
+                                        <span class="fw-bold fs-4 sub-one">Real time tracking</span>
+                                        <span class="sub-two">Track your errands in real time and get notified when they're
+                                            complete.</span>
+                                    </p>
+                                    <p class="d-flex flex-column track">
+                                        <span class="sn">4</span>
+                                        <span class="fw-bold fs-4 sub-one">Pay and Rate</span>
+                                        <span class="sub-two">Pay with cash or card and rate your Errander</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="errander-tab-pane" role="tabpanel" aria-labelledby="errander-tab"
+                            tabindex="0">
+
+                            <div class="d-flex align-items-center errand-sub">
+                                <div class="mx-4 img-holder">
+                                    <img class="" src="./Assets/IMG/how-it-works/erranda-mobile.png" />
+                                </div>
+                                <div class="sn-container ms-5 contain">
+                                    <p class="d-flex flex-column">
+                                        <span class="sn">1</span>
+                                        <span class="fw-bold fs-4 mt-2">Receive Errand Request</span>
+                                        <span class=" fs-6 errand">You get an errand request from a sender and their location and errand information is displayed.</span>
+                                    </p>
+                                    <div class="d-flex contain-sub">
+
+                                        <p class="d-flex flex-column">
+                                            <span class="sn">2</span>
+                                            <span class="fw-bold fs-4 mt-2">Accept Errand </span>
+                                            <span class="fs-6 errand">Discuss the price with the sender and accept the errand for delivery</span>
+                                        </p>
+                                        <p class="d-flex flex-column ms-5 swift">
+                                            <span class="sn">3</span>
+                                            <span class="fw-bold fs-4 mt-2">Receive & Deliver</span>
+                                            <span class="fs-6 errand">Pickup errand from the location and make the swift delivery</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="download">
+                <div class="container">
+                    <div class="download-content">
+                        <div class="left">
+                            <h3 class="pop fw-bold fs-3 mb-4">The CendMe app is a new groundbreaking innovation</h3>
+                            <p class="text-white fs-5 mb-4">CendMe Mobile app helps people who need a helping hand to run errands and also help people who are short on cash to run errands and get some cash.</p>
+                            <a href="#"><button type="button" class="btn text-white px-5 py-3 fw-bold">Download APK</button></a>
+                        </div>
+                        <div class="img-cont">
+                            <img src="./Assets/IMG/how-it-works/mobile-app-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+
 
     <!-- bootsrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -122,4 +238,5 @@
     <script src="./JS/app.js"></script>
 
 </body>
+
 </html>
