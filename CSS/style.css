@@ -37,7 +37,9 @@
     transition: all ease-in-out 0.2s;
     
 }
-
+.nav-bt .btn:hover {
+    background-color: transparent !important;
+}
 /* Newsletter styling*/
 
 
