@@ -9,7 +9,7 @@ function handleFormSubmit(event) {
     var message = document.getElementById('message').value;
 
     // Construct the mailto URL
-    var mailtoUrl = 'mailto:company@example.com' +
+    var mailtoUrl = 'mailto:danonymous.coder@gmail.com' +
                     '?subject=' + encodeURIComponent('New Contact Form Submission') +
                     '&body=' + encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
 
