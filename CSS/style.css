@@ -41,12 +41,6 @@
 /* Newsletter styling*/
 
 
-.sms-icon {
-    position: absolute;
-    top: 37%;
-    left: 4%;
-
-}
 /* copyright styling */
 footer {
     position: relative;
@@ -76,39 +70,6 @@ footer {
 
     .nav-transition li:hover {
         width: 25%;
-    }
-
-    /* newsletter section */
-    .newsletter-sec {
-        height: 70vh;
-        background-color: rgb(54, 54, 54) !important;
-        
-    }
-
-    .wave-sec {
-        height: 20vh;
-    }
-    .newsletter-header {
-        width: 150% !important;
-        position: relative;
-        left: -45%;
-        font-size:28px !important;
-        padding-right:40px;
-        padding-left: 40px;
-        padding-top: 40px;
-        line-height: 40px !important;
-        
-    }
-    .input-container {
-        width:140% !important;
-        left: -45%;
-        
-    }
-    .input-email {
-        padding-left: 40px !important;
-    }
-    .input-button {
-       width:40%;
     }
 
 
@@ -171,22 +132,6 @@ footer {
         width:12%;
     }
 
-    /*Newsletter section */
-    .newsletter-sec {
-        height: 40vh;
-       /* background-color: rgb(54, 54, 54);*/
-       background-color: #000000CC;
-    }
-    .newsletter-header {
-        width: 100% !important;
-        position: relative;
-        left: -20%;
-        margin-top: 15% !important;
-    }
-    .input-container {
-        width: 70% !important;
-        left: -10%;
-    }
 
     /* Footer section */
     .third-footer-col {
@@ -205,3 +150,5 @@ footer {
         margin-top: -5% !important;
     }
 }
+
+
