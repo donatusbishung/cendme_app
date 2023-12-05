@@ -21,18 +21,18 @@
         row-gap: 162px;
     }
 
-    .sub {
+    .sub-two {
         font-size: 18px;
         width: 250px;
     }
 
     .track {
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
 
-    .rate {
+    /* .rate {
         margin-bottom: 75px;
-    }
+    } */
 
     .errand {
         width: 200px;
@@ -93,6 +93,128 @@
                 }
             }
         }
+    }
+
+    /* mobile */
+    @media (max-width: 1024px) {
+        .container {
+            width: unset;
+        }
+
+        .sn {
+            font-size: 14px;
+            width: 40px;
+            height: 40px;
+        }
+
+        .sender-one {
+            flex-direction: column;
+        }
+
+        .sender-sub {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 40px;
+            margin: unset !important;
+        }
+
+        .sender-up {
+            align-items: start !important;
+            text-align: left !important;
+        }
+
+        .rate {
+            width: 50%;
+        }
+
+        .sub-one {
+            font-size: 16px !important;
+            margin: 8px 0;
+            /* width: unset; */
+        }
+        
+        .sub-two {
+        font-size: 12px;
+        font-weight: 400 !important;
+        width: unset;
+        }
+
+        .sender-down {
+            align-items: end;
+            text-align: right;
+        }
+
+        .track {
+            margin: unset;
+            width: 50%;
+        }
+
+        .img-box {
+            margin: 24px 0 !important;
+            width: 90%;
+            & img {
+                width: 100%;
+            }
+        }
+
+        .errand-sub {
+            flex-direction: column;
+        }
+
+        .img-holder {
+            width: 100%;
+            & img {
+                width: 100%;
+            }
+        }
+
+        .contain {
+            display: flex;
+            flex-direction: column;
+            margin-left: -20px !important;
+            row-gap: unset;
+        }
+
+        .contain-sub {
+            flex-direction: column;
+        }
+
+        .swift {
+            margin: unset !important;
+        }
+
+        .download {
+            margin-top: 100px;
+        }
+
+        .download-content {
+            flex-direction: column;
+            /* gap: 100px; */
+            .left {
+                width: 100% !important;
+                text-align: center;
+            }
+
+            .pop {
+                font-size: 22px;
+                /* text-align: center; */
+                margin-top: 60px !important;
+            }
+
+            .img-cont {
+                width: 100% !important;
+                margin-top: 70px !important;
+                margin-left: -20px;
+                & img {
+                    width: 100% !important;
+                }
+            }
+        }
+
+        
+
+        
     }
 
 }
