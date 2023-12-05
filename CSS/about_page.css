@@ -160,6 +160,21 @@ input:focus {
         left: -15%;
         margin-top:50px !important;
     }
+    
+    .joinus{
+        padding-top: 100%;
+        padding: 100%;
+    }
+    .join-us-content{
+        border-radius: 10%;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        position: absolute;
+        top: 200px;
+    }
+
+
 } 
 
 
