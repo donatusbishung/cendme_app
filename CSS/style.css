@@ -1,7 +1,7 @@
 
-/* Global styling */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@200;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@200;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+/* Global styling */
 
 @import './sections/how-it-works.css';
 
@@ -13,11 +13,11 @@
 }
 
 .pri-col {
-    color: #5ED680;
+    color: #5ED680 !important;
 }
 
 .sec-col {
-    color: #1E9D42;
+    color: #1E9D42 !important;
 }
 
 .pri-bg-col {
@@ -98,3 +98,290 @@
 
 }
     
+/* 
+ testimonial section
+  */
+.costumer-info {
+    background-color: #1E9D42;
+    color: white;
+    /* width: 274px;
+    height: 59px; */
+    padding: 5px;
+    /* margin: 2rem !important; */
+}
+
+.manrope-font {
+    font-family: 'Manrope', sans-serif !important;
+}
+
+.rating-sect {
+    font-family: 'Manrope', sans-serif !important;
+    font-size: 18px; 
+    opacity: 60%;
+}
+/* end of testimonial section */
+
+
+/* CendMe lifesaver section beginning */
+.main_cover_section {
+    display: flex;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.svg_line {
+    position: absolute;  
+    left: 170px; 
+    top: 30px; 
+    width: 65%;
+}
+
+.container_hold_line_text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%; 
+    /* left: 150px;  */
+    top: 10px;
+    padding-left: 170px;
+}
+
+.sub_container_hold_line_text {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.text_info_and_line_container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.background_image_section {
+    position: absolute;
+    bottom: 0;
+    right: -106px;
+}
+
+.background_image_section img {
+    width: 90%; 
+    height: auto;
+}
+
+
+/* Swipper part */
+
+.swipper_area_container {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+    z-index: 999; 
+    padding: 20px;
+}
+
+.inside_swipper_left_side {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px;
+}
+
+.inside_swipper_right_side {
+    background-color: #1E9D42; 
+    color: #fff; 
+    padding: 5px 46px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1075px) {
+
+
+    .svg_line {
+        position: absolute;
+        left: 63px;
+        top: 105px;
+        width: 65%;
+    }
+
+
+    .container_hold_line_text {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        /* left: 150px; */
+        top: 10px;
+        padding-left: 56px;
+        z-index: 999;
+    }
+
+
+    .text_info_and_line_container {
+        width: 65%;
+        height: 74%;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        justify-content: center;
+        align-items: center;
+        padding: 18px;
+        margin-top: 66px;
+    }
+
+    .text_info_and_line_container  div {
+        font-size: 18px !important;
+    }
+
+
+    .background_image_section {
+        position: absolute;
+        bottom: 0;
+        right: -165px;
+    }
+
+    .background_image_section img {
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 987px) {
+
+    .svg_line {
+        display: none;
+    }
+
+    .container_hold_line_text {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        /* left: 150px; */
+        top: 10px;
+        padding-left: 0px;
+        z-index: 999;
+    }
+
+    .background_image_section {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+
+    .background_image_section img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .inside_swipper_left_side {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        align-items: center;
+    }
+
+
+    .inside_swipper_right_side {
+        background-color: #1E9D42; 
+        color: #fff; 
+        padding: 8px 25px;
+        border-radius: 8px;
+    }
+    
+
+    .inside_swipper_left_side button {
+        padding: 5px !important;
+    }
+
+
+    .text_info_and_line_container {
+        width: 100%;
+        height: 74%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px !important;
+        justify-content: start;
+        align-items: center;
+        padding: 18px;
+        margin-top: 0px;
+    }
+
+
+    .sub_container_hold_line_text {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    .mobile_response_testimonial {
+        font-size: 12px !important;
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+    .slider_button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    .text_info_and_line_container {
+        width: 100%;
+        height: 74%;
+        display: flex;
+        flex-direction: column;
+        gap: 7px !important;
+        justify-content: start;
+        align-items: center;
+        padding: 18px;
+        margin-top: 0px;
+    }
+
+
+
+    .svg_quote {
+        width: 24px !important;
+    }
+
+    .mobile_response_testimonial {
+        font-size: 13px !important;
+    }
+
+    .tx-testimonial {
+        font-size: 16px !important;
+        font-weight: bolder;
+    }
+
+    .swipper_area_container {
+        padding: 0px !important;
+    }
+
+}
+/* CendMe lifesaver section ending */
