@@ -383,10 +383,10 @@ form .name input {
         font-size: 11px;
     }
     .invite-btn {
-        width: 100px;
+        width: 80px;
         border: 18px;
-        font-size: 12px;
-        font-weight: 300;
+        font-size: 4px;
+        font-weight: 50;
         right: 1%;
         text-transform: none;
     }
@@ -397,6 +397,12 @@ form .name input {
         padding-bottom: 3px;
         padding-left: 2px;
         padding-right: 2px;
+    }
+    .input-container input {
+        padding-left: 5px;
+    }
+    .icon {
+        display: none;
     }
     .wave {
         width: 100%;
