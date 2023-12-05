@@ -227,18 +227,17 @@ textarea::placeholder {
     border-radius: 32px;
     border: none;
     position: absolute;
-    right: 6px;
-    top: 15px;
+    right: 10px;
+    top: 20px;
     bottom: 14px;
     z-index: 10;
     color: #fff;
-   height: 60px;
-   width: 170px;
+   height: 50px;
+   width: 130px;
     text-align: center;
     vertical-align: middle;
     font-size: 12px;
     font-weight: 600;
-    text-transform: uppercase;
     border: none;
     transition: .6s ease;
 }
@@ -272,6 +271,7 @@ form .name input {
     bottom: 0;
     padding-top: 7px;
     padding-left: 23px;
+    padding-right: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
