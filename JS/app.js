@@ -1,5 +1,5 @@
 /* header and navigation section */
-const nav [
+const nav = [
     {
         name: "Home",
         id: 1,
@@ -77,4 +77,4 @@ loopArr(0)
 // // myDownloads.addEventListener('mousemove', downloadsCount(0))
 
 // downloadsCount(0)
-=======
+
