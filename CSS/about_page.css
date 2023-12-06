@@ -181,7 +181,10 @@ input:focus {
         top: 200px;
     }
 
-
+    .monsory-mobile {
+        width: 295px;
+        height: 309px;
+    }
 } 
 
 
