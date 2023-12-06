@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-=======
+
 @import './sections/how-it-works.css';
->>>>>>> FAQS_page
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@200;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +9,6 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@200;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 
 /* Global styling */
 
@@ -27,7 +26,6 @@
 
 /* End Global Styling */
 
-<<<<<<< HEAD
 
 /* Header styling */
 .active {
@@ -158,10 +156,7 @@ footer {
     }
 }
 
-
-=======
 /* 
     Please make sure you indicate using comments, the area or section you are styling
     Don't style inside another contributor's section.
  */
->>>>>>> FAQS_page

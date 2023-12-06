@@ -1,0 +1,85 @@
+/* section{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.container{
+    width: 70%;
+    height: 100%;
+    background-color: antiquewhite;
+    margin: auto;
+} */
+#our-mission{
+    background-color: #000000CC;
+}
+.gtr{
+    gap: 10px;
+}
+.text-mission{
+    text-align:left;
+    background-color: #1E9D42;
+    color: #1E9D42;
+    font-size: 25px;
+}
+.text-para{
+    text-align: left;
+    font-size: 18px;
+}
+
+/* .card-d{
+   display: flex;
+   flex-wrap: wrap-reverse;
+   justify-content: center;
+   align-items: center;
+} */
+.elyo{
+    background: none !important; 
+    border: none;
+  
+}
+.num{
+    color: rgba(234, 234, 234, 0.50);
+    font-size: 60px;
+    font-weight: 200;
+
+}
+#Errander{
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, #0b471c ), rgba(0, 0, 0, #1E9D42 )), url(/Assets/IMG/Surface\ Book\ -\ 8.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: #1E9D42; */
+    
+
+    background-image:linear-gradient(to bottom, rgba(2, 56, 4, 0.556),rgba(2, 56, 4, 0.556)),
+     url(/Assets/IMG/Surface\ Book\ -\ 8.png);
+}
+.desi{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    margin-bottom: 100px;
+    
+}
+
+.desi :hover{
+    background-color: white;
+}
+.ernd{
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 100px;
+}
+.ernd-font{
+    font-size: 96px;
+
+}
+.ernd-font-green{
+    font-size: 45px;
+    line-height: 54px;
+
+}
+.ernd-font-para{
+    font-size: 18px;
+
+}
