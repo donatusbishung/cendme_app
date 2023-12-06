@@ -32,6 +32,13 @@
 .joinus-bg-col {
     color:dimgrey;
 }
+#joinus{
+    position: relative;
+}
+.joinus-con{
+    position: absolute;
+    top: -150px
+}
 
 /* Header styling */
 .active {

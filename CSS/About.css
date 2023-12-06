@@ -23,7 +23,7 @@
 }
 .text-para{
     text-align: left;
-    font-size: 10px;
+    font-size: 18px;
 }
 
 /* .card-d{
@@ -69,4 +69,17 @@
     font-weight: 700;
     font-size: 50px;
     padding-top: 100px;
+}
+.ernd-font{
+    font-size: 96px;
+
+}
+.ernd-font-green{
+    font-size: 45px;
+    line-height: 54px;
+
+}
+.ernd-font-para{
+    font-size: 18px;
+
 }
