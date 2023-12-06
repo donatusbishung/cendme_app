@@ -34,9 +34,9 @@
     position: relative; 
 }
 
-.rec-52mobile {
+/* .rec-52-mobile { 
     display: none;
-}
+ } */
 
 .rec-53 {
     position: absolute;
@@ -45,53 +45,71 @@
 
 /* Mobile responsiveness*/
 
-@media only screen and (max-width: 767px) {
-
-.container {
-    height: auto;  
-}
-
-.rec-52 {
-    display: none;
-}
-
-.rec-53 {
-    display: none;
-}
-
-.hero-left h1 {
-    text-align: center;
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: 800;
+@media only screen and (max-width: 480px) {
+   
+    .container-sm {
+        width: unset;   
+    }
     
+    /* .rec-52 {  
+         display: none; 
+    } */
+    
+    .rec-53 {
+        display: none;
+    }
+    
+    .angles {
+        display: none;
+    }
+
+    .rec-52-mobile {
+        background-image: url("../Assets/IMG/Rectangle52mobile.png") !important;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        width: 100% !important;
+        height: 80% !important;
+            
+    } 
+    
+    .hero-left h1 {
+        text-align: center;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 800;
+        
+    }
+    
+    .hero-left p {
+        text-align: center;
+        font-size: 20px;
+        padding-right: auto;
+        padding-top: 10px;
+    }
+    
+    .hero-apps {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .reviews-container {
+        position: absolute;
+        transform: scale(0.3);
+    }
+    
+   
+    .hero-right {
+       width: 60%;
+       height: 60%;
+       margin-left: 0;
+    }
+    
+    .vid-btn {
+        margin-top: 190%;
+    } 
 }
 
-.hero-left p {
-    text-align: center;
-    font-size: 20px;
-    padding-right: auto;
-    padding-top: 10px;
-}
-
-.hero-apps {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.reviews-container {
-    position: absolute;
-    transform: scale(0.3);
-}
-
-.hero-right {
-    margin-left: 0;
-}
-
-.vid-btn {
-    margin-top: 190%;
-}
-
-}
     
