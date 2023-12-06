@@ -1,27 +1,21 @@
-const nav = [
-    {
-        name: "Home",
-        id: 1,
-        link: 'index.html',
-    },
+// Contact JS code
+// Function to handle form submission
+function handleFormSubmit(event) {
+    event.preventDefault(); // Prevent the default form submission
 
-    {
-        name: 'about',
-        id: 2,
-        link: 'about.html'
-    },
+    // Get form data
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
 
-    {
-        name: 'contact us',
-        id: 3,
-        link: 'contact.html'
+    // Construct the mailto URL
+    var mailtoUrl = 'mailto:danonymous.coder@gmail.com' +
+                    '?subject=' + encodeURIComponent('New Contact Form Submission') +
+                    '&body=' + encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
 
-    },
+    // Open the user's default email client
+    window.location.href = mailtoUrl;
+}
 
-    {
-        name: 'FAQ',
-        id: 4,
-        link: 'faq.html'
-
-    },
-];
+// Attach the event handler to the form
+document.getElementById('contactForm').addEventListener('submit', handleFormSubmit);

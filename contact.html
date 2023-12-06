@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CendMe</title>
+
+    <!--bootstrap CDN link -->
+    <link rel="stylesheet" href="
+    https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+    ">
+
+<!-- Boxicons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+
+</head>
+<body>
+    <!-- 
+        Please do well to make good use of COMMENTS.
+        Your ID and class names should be understandable.
+        
+     -->
+
+
+      <!--Navigation and header-->
+      <header>
+        <nav class=" navbar navbar-expand-lg w-100 py-3 shadow-sm active" style="border-bottom:1px solid #5ED680; width: 100%;">
+            <div class="container-fluid" style="width: 95%;">
+              <a class="navbar-brand text-center cendme-title" href="#" style="font-size:30px;margin-left:90px;color:#5ED680;font-weight:bolder;">CendMe</a>
+              <button class="navbar-toggler custom-toggler" style="border:none;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent" >
+                <div class="mx-auto nav-colla" style="display: flex; justify-content: space-evenly;">
+                <ul class="navbar-nav mb-2 mb-lg-0 nav-transition" style="gap:20px;">
+                  <li class="nav-item border-lenght">
+                    <a class="nav-link active"  aria-current="page" href="index.html" style="color:#2F2F2F; ">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html" style="color:2F2F2F;">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html"  style="color:#1E9D42; border-bottom:1px solid #5ED680">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./faq.html" style="color:#2F2F2F; ">FAQs</a>
+                  </li>
+                </ul>
+                </div>
+                <form class="d-flex nav-bt wit" style=" width: 25%;" role="search">
+                  <button class="btn btn-outline-success " type="submit" style=" align-items: center; justify-content: center; margin-right:60px; padding: 13px; width: 160px; color:#5ED680; font-weight:bolder;text-align: center;">Download Now</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+     </header>
+
+
+     <section>
+        <div class="hero">
+            <h1 class="sec-col text-center head">Contact Us</h1>
+            <p class="text-center sub">Our team would love to hear from you</p>
+    
+            <div class="hero-bod">
+                
+                <!-- Contact info section -->
+                <div class="contact-inf">
+                    <h3 class="pri-col hx">Contact Information</h3>
+                    <p class="sub-col sx">You can reach out us through any of these provided information</p>
+                    <div class="infos">
+                        <div class="phone">
+                            <img src="./Assets/IMG/bxs_phone-call.png" alt=""> <p class="text-white">+234 123 5674 890</p>
+                        </div>
+                        <div class="phone">
+                            <img src="./Assets/IMG/ic_sharp-email.png" alt=""> <p class="text-white">cendme@gmail.com</p>
+                        </div>
+                        <div class="phone">
+                            <img src="./Assets/IMG/Vector.png" alt=""> <p class="text-white">123 Wempco Road, Ogba, Lagos, <br> Nigeria.</p>
+                        </div>
+                        <div class="elipse">
+                            <img src="./Assets/IMG/Ellipse 794.png" alt="" class="el">
+                            <img src="./Assets/IMG/Ellipse 793.png" alt="" class="el1">
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="social">
+                            <ul class="d-flex">
+                                <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                                <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                                <li><a href="#"><i class='bx bxl-discord-alt'></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- 
+                            <div class="elipse">
+                            <img src="./Assets/IMG/Ellipse 794.png" alt="" class="el">
+                            <img src="./Assets/IMG/Ellipse 793.png" alt="" class="el1">
+                        </div>
+                        -->
+
+                    </div>
+                </div>
+               
+                <!-- Form Section -->
+                <form action="mailto:aladebaruwa@gmail.com" method="post" enctype="text/plain">
+                    <div class="name d-flex">
+                        <div class="fname">
+                            <label for="fname">First Name</label>  <br>
+                            <input type="text" name="" id="" required>
+                        </div>
+                        <div class="fname">
+                            <label for=lfname">Last Name</label> <br>
+                            <input type="text" name="" id="" required>
+                        </div>
+                    </div>
+                    <div class="name d-flex">
+                        <div class="email">
+                            <label for="email">Email</label> <br>
+                            <input type="email" name="" id="" required>                        
+                        </div>
+                        <div class="email">
+                            <label for="phone">Phone Number</label> <br>
+                            <input type="phone" name="" id="" required>                     
+                        </div>
+                    </div>
+                    <div class="message">
+                        <label for="message">Message</label>
+                        <textarea name="" id="" placeholder="What would you like to talk about (optional)"></textarea>
+                    </div>
+                    <div class="btn">
+                        <a class="text-white" style="outline: none;" href="mailto:someone@example.com?cc=someoneelse@example.com&bcc=andsomeoneelse@example.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!">Send Message</a>
+                    </div>
+                </form>
+            </div>
+    
+         </div>
+     </section>
+   <!--Newsletter Section-->
+   <section style="background: #000000CC; overflow-x: hidden;">
+    <div class="cta">
+        <h1 class="text-white">Join our newsletter to get the
+            latest guides!</h1>
+            <div class="input-container mt-3">
+                <input required="" placeholder="Enter your Email" type="email">
+                <div class="icon">
+                    <img src="./Assets/IMG/Icon.png" alt="" aria-hidden="true">
+                </div>
+                <button class="invite-btn" type="button" style="font-size: 20px;">
+                    Submit
+                </button>
+               
+            </div>
+            <div class="input-container2 mt-3 d-none">
+                <input required="" placeholder="Email Address" type="email">
+                <div class="icon2">
+                    <img src="./Assets/IMG/Icon.png" alt="" aria-hidden="true">
+                </div>
+                <button class="invite-btn2" type="button" style="font-size: 20px;">
+                    Submit
+                </button>
+               
+            </div>
+    </div>
+ </section>
+ 
+    <img src="./Assets/IMG/Wave.png" alt="" style="width: 100%;overflow: hidden;" class="wave">
+
+
+
+   
+     <!--footer section-->
+     
+        <footer>
+          <div class="container-fluid ">
+            <div class="container px-4 " style="gap: 35px;">
+              <div class="row gx-5">
+                <div class="col" style="margin-left: 40px;">
+                 <div class="p-5 first-footer-col">
+                  <h1 style="color:#5ED680; font-weight: bolder; margin-right:25%;margin-top:20px;">CendMe</h1>
+                  <p style="line-height: 30px;margin-top: 30px;width:130%;color:#52525b; font-size:14px;" class="get-things-done">Get things done without lifting a finger. Life is too short to run errands. Let us do it for you. Sign up for CendMe today and start enjoying your free time.</p>
+                 </div>
+                 <div class="d-flex ms-5 first-footer-icons" style="margin-top: -12%;gap:40px; align-items: center;">
+                  <img src="./Assets/IMG/bxl-twitter.svg" alt="twitter icon" style="color: black;" width="20" height="20"/>
+                  <img src="./Assets/IMG/facebook-logo-24.png" alt="facebook icon"/>
+                  <img src="./Assets/IMG/instagram-logo-24.png" alt="instagram icon"/>
+                </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 sec-footer-col" style="margin-left: 90px;">
+                    <h6 style="color:#5ED690;margin-top: 60px;font-weight: bolder;">COMPANY</h6>
+                    <div style="margin-top: 50px;color:#52525B; font-size:14px;">
+                    <p>About</p>
+                    <p>Features</p>
+                    <p>How it Works</p>
+                    <p>Become an Errander</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 third-footer-col" style="margin-left: 90px;" >
+                    <h6 style="color: #5ED680;margin-top: 60px;font-weight: bolder;">HELP</h6>
+                    <div style="margin-top: 50px;color:#52525B; font-size:14px;">
+                      <p>Customer Support</p>
+                      <p>Delivery Details</p>
+                      <p>Terms & Conditions</p>
+                      <p>Privacy Policy</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container px-4  w-50 copyright-nav" style="margin-left: 14%; margin-bottom:40px;margin-top: 60px;">
+              <div class="row" style="font-size: 14px; cursor: pointer;">
+                <div class="col">
+                  <p><a href="about.html" style="text-decoration: none; color: #52525B;font-size:14px;">About Us</a></p>
+                 </div>
+                 <div class="col">
+                  <p><a href="contact.html" style="text-decoration: none; color: #52525B;font-size:14px;">Contact</a></p>
+                 </div>
+                 <div class="col">
+                  <p><a href="#" style="text-decoration: none;color: #52525B;font-size:14px;">Privacy policy</a></p>
+                 </div>
+                 <div class="col">
+                  <p><a href="#" style="text-decoration: none; color: #52525B;font-size:14px;">Terms of Use</a></p>
+                 </div>
+              </div>
+            </div>
+  
+            <!--right containing copyright-->
+            <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center copyright-text">
+              <p class="right-copyright" style="color:#52525B;font-size:15px;">&copy 2023 All Rights Reserved</p>
+            </div>
+          </div>
+        </footer>
+       
+       <!--<section style="background-color:rgb(54, 54, 54); height:30vh;"> </section>-->
+  
+
+
+    <!-- bootsrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="./JS/app.js"></script>
+
+</body>
+</html>
