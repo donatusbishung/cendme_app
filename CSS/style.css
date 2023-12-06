@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+@import './sections/how-it-works.css';
+>>>>>>> FAQS_page
 * {
     padding: 0;
     margin: 0;
@@ -23,6 +27,7 @@
 
 /* End Global Styling */
 
+<<<<<<< HEAD
 
 /* Header styling */
 .active {
@@ -154,3 +159,9 @@ footer {
 }
 
 
+=======
+/* 
+    Please make sure you indicate using comments, the area or section you are styling
+    Don't style inside another contributor's section.
+ */
+>>>>>>> FAQS_page
