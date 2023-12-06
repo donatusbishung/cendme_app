@@ -72,7 +72,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
-        width: 100% !important;
+        width: 94% !important;
         height: 80% !important;
             
     } 
@@ -84,6 +84,14 @@
         font-weight: 800;
         
     }
+
+    .hero-left {
+        padding-left: 0 !important;
+    }
+
+    .div {
+        padding-right: 1rem !important;
+    }
     
     .hero-left p {
         text-align: center;
@@ -94,25 +102,40 @@
     
     .hero-apps {
         display: flex;
-        flex-direction: row;
         align-items: center;
+        gap: 16px;
+    }
+
+    .hero-apps img {
+        width: 48%;
     }
     
     .reviews-container {
         position: absolute;
         transform: scale(0.3);
+        right: -30px;
     }
     
    
     .hero-right {
        width: 60%;
        height: 60%;
-       margin-left: 0;
+       margin: auto;
     }
     
     .vid-btn {
-        margin-top: 190%;
+        width: 30px;
+        margin-top: 428px;
     } 
+    
+    .vid-btn i {
+        font-size: 12px !important;
+
+    }
+
+    .vid-btn img {
+        width: 100%;
+    }
 }
 
     
