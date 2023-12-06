@@ -47,13 +47,17 @@
 }
 
 .video-btn {    
-    bottom: 130px;
+    bottom: 140px;
     left: 50%;  
-    rotate: -20deg;
+    rotate: -5deg;
 } 
 
-
-
+.btn-container {
+    width: 10%;
+    height: 15%;
+    border-radius: 30px;
+    border: 1px solid;
+}
 
 
 /* Mobile responsiveness*/
@@ -81,7 +85,6 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        /* background-attachment: fixed; */
         width: 94% !important;
         height: 80% !important;
             
