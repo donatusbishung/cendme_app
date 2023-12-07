@@ -26,9 +26,9 @@
     font-size:16px !important;
     transition: font-size 0.3s ease !important;
 }
-/*nav {
+nav {
     margin-bottom: 50px;
-}*/
+}
 section {
     width: 100%;
     height: auto;
@@ -209,14 +209,14 @@ textarea {
 textarea::placeholder {
     opacity: 40%;
 }
-/*.btn {
+.btn {
     height: auto;
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
-.btn a {
+btn a {
     padding: 15px;
     border-radius: 15px;
     background: #5ED680;
@@ -225,7 +225,7 @@ textarea::placeholder {
     font-weight: 700;
     line-height: 17px;
     letter-spacing: 0em;
-}*/
+}
 
 .cta {
     display: flex;
@@ -314,15 +314,16 @@ form .name input {
     nav {
         margin-bottom: 25px;
     }
+
     .nav-colla {
         display: flex; 
         flex-direction: column;
-        justify-content: flex-start;
         padding-left: 15px;
     }
-    .nav-bt {
+    .nav-btn {
         display: flex;
-        justify-content: flex-start; 
+        justify-content: flex-start;
+
     }
     .wit {
         font-size: 14px;
@@ -398,6 +399,7 @@ form .name input {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 90%;
     }
     .input-container input {
         width: 300px;
@@ -413,7 +415,7 @@ form .name input {
         border: 18px;
         font-size: 4px;
         font-weight: 50;
-        right: 15%;
+        right: 24%;
         text-transform: none;
         bottom: 20px;
         top: 20px;
@@ -426,7 +428,7 @@ form .name input {
     padding-top: 12px;
     padding-bottom: 3px;
     padding-left: 20px;
-    left: 11%;
+    left: 22%;
     margin-left: 10px;
    }
     
