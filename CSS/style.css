@@ -9,9 +9,7 @@
     box-sizing: border-box;
 }
 
-
 /* Global styling */
-
 .pri-col {
     color: #5ED680 !important;
 }
@@ -25,8 +23,6 @@
 }
 
 /* End Global Styling */
-
-
 /* Header styling */
 .active {
     transition: all ease-in-out 0.5s;
@@ -40,33 +36,36 @@
     color: #1E9D42;
     border-bottom: 1px solid #5ED680;
     transition: all ease-in-out 0.2s;
-
 }
 
 .nav-bt .btn:hover {
     background-color: transparent !important;
 }
+
 .nav-link {
     transition: border-bottom 0.4s all ease-in-out;
     border-bottom: 2px solid transparent !important;
     padding-bottom: 2px !important
-    
 }
+
 .nav-link:hover,
 .nav-link:active {
     border-bottom-color: #5ED680 !important;
-    color:#5ED680 !important;
+    color: #5ED680 !important;
     transition: border-bottom 0.5s all ease-in-out !important;
 }
+
 .nav-link:hover {
     border-bottom-width: 5% !important;
 }
+
 .nav-btn {
     font-size: 14px;
     transition: font-size 0.3s ease !important;
 }
+
 .nav-btn:hover {
-    font-size:16px !important;
+    font-size: 16px !important;
     transition: font-size 0.3s ease !important;
 }
 
@@ -74,12 +73,13 @@
 .input-container {
     position: relative;
 }
+
 .input-button {
     position: absolute;
     top: 0;
     right: 0;
     height: 75%;
-    width:30%;
+    width: 30%;
     border-radius: 99px;
     border: none;
     margin-top: 10px;
@@ -87,20 +87,17 @@
     margin-right: 9px;
     color: white;
     background-color: #5ED680;
-    
 }
+
 input:focus {
     outline: none;
 }
-
 
 .sms-icon {
     position: absolute;
     top: 37%;
     left: 5%;
-
 }
-
 
 /* copyright styling */
 footer {
@@ -109,7 +106,7 @@ footer {
 
 .right-copyright {
     display: flex;
-    margin-top: -18%;
+    margin-top: -16%;
     margin-right: -220%;
 }
 
@@ -117,9 +114,7 @@ footer {
     margin-top: 70px;
 }
 
-
 /* Mobile responsiveness*/
-
 @media only screen and (max-width: 767px) {
 
     /* header section */
@@ -135,45 +130,52 @@ footer {
     .nav-link:hover {
         width: 12%;
     }
+
     .contact-nav-link:hover {
-        width:24%;
+        width: 24%;
     }
+
     .nav-btn {
         margin-top: 20px;
     }
 
     /* newsletter section */
     .newsletter-sec {
-        height: 70vh;
-        background-color: rgb(54, 54, 54) !important;
-        
+        /* height: 70vh; */
+        background-color: #333333 !important;
     }
 
     .wave-sec {
         height: 20vh;
+        margin-top: 0px;
     }
+
     .newsletter-header {
         width: 100% !important;
         position: relative;
-        font-size:28px !important;
+        font-size: 28px !important;
         /* padding-right:40px;
         padding-left: 40px; */
         padding-top: 40px;
         line-height: 40px !important;
-        
     }
+
+    .newsletter-header br {
+        display: none;
+    }
+
     .input-container {
-        width:140% !important;
+        width: 140% !important;
         left: -45%;
-        
     }
+
     .input-email {
         padding-left: 45px !important;
     }
-    .input-button {
-       width:40%;
-    }
 
+    .input-button {
+        width: 40%;
+    }
 
     /* Footer section */
     .get-things-done {
@@ -183,7 +185,6 @@ footer {
     .first-footer-col {
         margin-top: -40%;
         margin-left: -15%;
-
     }
 
     .first-footer-icons {
@@ -210,7 +211,7 @@ footer {
         margin-left: 16% !important;
         opacity: 0.7;
         white-space: nowrap;
-        width:68% !important;
+        width: 68% !important;
         text-align: center;
     }
 
@@ -220,9 +221,7 @@ footer {
     }
 }
 
-
 /* Tablet responsiveness */
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
     /* Header section */
@@ -238,29 +237,33 @@ footer {
     .nav-transition li:hover {
         width: 12%;
     }
+
     .nav-link:hover {
         width: 10%;
     }
+
     .contact-nav-link:hover {
-        width:20%;
+        width: 20%;
     }
-    
+
     .nav-btn {
-        margin-top:20px;
+        margin-top: 20px;
     }
 
     /*Newsletter section */
     .newsletter-sec {
         height: 40vh;
-       /* background-color: rgb(54, 54, 54);*/
-       background-color: #000000CC;
+        /* background-color: rgb(54, 54, 54);*/
+        background-color: #000000CC;
     }
+
     .newsletter-header {
         width: 100% !important;
         position: relative;
         left: -20%;
         margin-top: 15% !important;
     }
+
     .input-container {
         width: 70% !important;
         left: -10%;
@@ -288,7 +291,6 @@ footer {
     Please make sure you indicate using comments, the area or section you are styling
     Don't style inside another contributor's section.
  */
-
 /* Hero styling */
 .rec-52 {
     width: 81%;
@@ -298,17 +300,16 @@ footer {
 /* .rec-52-mobile { 
     display: none;
  } */
-
 .rec-53 {
     position: absolute;
     width: 1050px;
 }
 
-.video-btn {    
+.video-btn {
     bottom: 140px;
-    left: 50%;  
+    left: 50%;
     rotate: -5deg;
-} 
+}
 
 .btn-container {
     width: 10%;
@@ -317,11 +318,8 @@ footer {
     border: 1px solid;
 }
 
-
 /* Mobile responsiveness*/
-
 @media only screen and (max-width: 767px) {
-
     .container {
         height: auto;
     }
@@ -335,7 +333,6 @@ footer {
         font-size: 24px;
         line-height: 30px;
         font-weight: 800;
-
     }
 
     .hero-left p {
@@ -363,7 +360,6 @@ footer {
     .vid-btn {
         margin-top: 190%;
     }
-
 }
 
 /* 
@@ -389,8 +385,6 @@ footer {
 }
 
 /* end of testimonial section */
-
-
 /* CendMe lifesaver section beginning */
 .main_cover_section {
     display: flex;
@@ -398,7 +392,6 @@ footer {
     position: relative;
     overflow: hidden;
 }
-
 
 .svg_line {
     position: absolute;
@@ -449,9 +442,7 @@ footer {
     height: auto;
 }
 
-
 /* Swipper part */
-
 .swipper_area_container {
     display: flex;
     justify-content: space-between;
@@ -474,15 +465,12 @@ footer {
 }
 
 @media screen and (max-width: 1075px) {
-
-
     .svg_line {
         position: absolute;
         left: 63px;
         top: 105px;
         width: 65%;
     }
-
 
     .container_hold_line_text {
         position: relative;
@@ -495,7 +483,6 @@ footer {
         padding-left: 56px;
         z-index: 999;
     }
-
 
     .text_info_and_line_container {
         width: 65%;
@@ -513,7 +500,6 @@ footer {
         font-size: 18px !important;
     }
 
-
     .background_image_section {
         position: absolute;
         bottom: 0;
@@ -524,11 +510,9 @@ footer {
         width: 80%;
         height: auto;
     }
-
 }
 
 @media screen and (max-width: 987px) {
-
     .svg_line {
         display: none;
     }
@@ -552,12 +536,10 @@ footer {
         transform: translate(-50%, 0);
     }
 
-
     .background_image_section img {
         width: 100%;
         height: auto;
     }
-
 
     .inside_swipper_left_side {
         display: flex;
@@ -566,7 +548,6 @@ footer {
         align-items: center;
     }
 
-
     .inside_swipper_right_side {
         background-color: #1E9D42;
         color: #fff;
@@ -574,11 +555,9 @@ footer {
         border-radius: 8px;
     }
 
-
     .inside_swipper_left_side button {
         padding: 5px !important;
     }
-
 
     .text_info_and_line_container {
         width: 100%;
@@ -592,7 +571,6 @@ footer {
         margin-top: 0px;
     }
 
-
     .sub_container_hold_line_text {
         position: relative;
         width: 100%;
@@ -603,14 +581,10 @@ footer {
     }
 }
 
-
-
 @media screen and (max-width: 767px) {
-
     .mobile_response_testimonial {
         font-size: 12px !important;
     }
-
 }
 
 @media screen and (max-width: 428px) {
@@ -620,7 +594,6 @@ footer {
 }
 
 @media screen and (max-width: 390px) {
-
     .text_info_and_line_container {
         width: 100%;
         height: 74%;
@@ -632,8 +605,6 @@ footer {
         padding: 18px;
         margin-top: 0px;
     }
-
-
 
     .svg_quote {
         width: 24px !important;
@@ -651,14 +622,12 @@ footer {
     .swipper_area_container {
         padding: 0px !important;
     }
-
 }
 
 /* CendMe lifesaver section ending */
-
 .faq-section {
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 90px;
 }
 
 .faq-section .img-cont {
@@ -680,7 +649,6 @@ footer {
     margin: 0;
     width: 100%;
 }
-
 
 @media (max-width: 1024px) {
     .faq-section .img-cont {
@@ -707,12 +675,12 @@ footer {
         width: 80%;
     }
 }
+
 @media only screen and (max-width: 1024px) {
-   
     .container-sm {
-        width: unset;   
+        width: unset;
     }
-    
+
     /* .rec-52 {  
          display: none; 
     }
@@ -720,7 +688,6 @@ footer {
     .rec-53 {
         display: none;
     } */
-    
     .angles {
         display: none;
     }
@@ -732,15 +699,13 @@ footer {
         background-repeat: no-repeat;
         width: 94% !important;
         height: 80% !important;
-            
-    } 
-    
+    }
+
     .hero-left h1 {
         text-align: center;
         font-size: 28px;
         line-height: 30px;
         font-weight: 800;
-        
     }
 
     .hero-left {
@@ -750,7 +715,7 @@ footer {
     .div {
         padding-right: 1rem !important;
     }
-    
+
     .hero-left p {
         text-align: center;
         font-size: 18px;
@@ -758,7 +723,7 @@ footer {
         padding-right: auto;
         padding-top: 10px;
     }
-    
+
     .hero-apps {
         display: flex;
         align-items: center;
@@ -767,34 +732,30 @@ footer {
 
     .hero-apps img {
         width: 48%;
-    } 
-    
+    }
+
     .reviews-container {
         position: absolute;
         transform: scale(0.6);
         right: -10px;
     }
-    
-   
+
     .hero-right {
-       width: 60%;
-       height: 60%;
-       margin: auto;
+        width: 60%;
+        height: 60%;
+        margin: auto;
     }
-    
+
     .vid-btn {
         width: 30px;
         margin-top: 428px;
-    } 
-    
+    }
+
     .vid-btn i {
         font-size: 12px !important;
-
     }
 
     .vid-btn img {
         width: 100%;
     }
 }
-
-    
