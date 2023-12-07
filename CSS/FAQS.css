@@ -208,13 +208,13 @@ h2{
     outline: solid #5ED680 1px;
     border-radius: 15px;
 }
-a {
+.small-button {
     text-decoration: none;
     text-align: center;
     color: #5ED680;
     font-size: 18px;
 }
-a:hover {
+.small-button:hover {
     background-color: #5ED680;
     color: white;
 }
@@ -352,7 +352,7 @@ a:hover {
         
     }
     .input-email {
-        padding-left: 40px !important;
+        padding-left: 45px !important;
     }
     .input-button {
        width:40%;
@@ -393,8 +393,6 @@ a:hover {
         text-align: center;
     }
     
-    
-
     .copyright-text {
         margin-left: -111%;
         margin-top: 60px;

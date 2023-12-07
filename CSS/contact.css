@@ -1,9 +1,34 @@
 *{
     font-family: "Inter", sans-serif;
 }
-nav {
-    margin-bottom: 50px;
+
+/* Header styling*/
+.nav-link {
+    transition: border-bottom 0.4s all ease-in-out;
+    border-bottom: 2px solid transparent !important;
+    padding-bottom: 2px !important
+    
 }
+.nav-link:hover,
+.nav-link:active {
+    border-bottom-color: #5ED680 !important;
+    color:#5ED680 !important;
+    transition: border-bottom 0.5s all ease-in-out !important;
+}
+.nav-link:hover {
+    border-bottom-width: 5% !important;
+}
+.nav-btn {
+    font-size: 14px;
+    transition: font-size 0.3s ease !important;
+}
+.nav-btn:hover {
+    font-size:16px !important;
+    transition: font-size 0.3s ease !important;
+}
+/*nav {
+    margin-bottom: 50px;
+}*/
 section {
     width: 100%;
     height: auto;
@@ -33,14 +58,14 @@ letter-spacing: 0em;
     padding: 30px 10px;
     margin-bottom: 40px;
 }
-.head {
+/*.head {
     font-family: "Inter", sans-serif;
     font-size: 56px;
     font-weight: 700;
     line-height: 57px;
     letter-spacing: 0em;
 
-}
+}*/
 .sub {
 font-size: 24px;
 font-weight: 400;
@@ -184,7 +209,7 @@ textarea {
 textarea::placeholder {
     opacity: 40%;
 }
-.btn {
+/*.btn {
     height: auto;
     width: 100%;
     display: flex;
@@ -200,7 +225,7 @@ textarea::placeholder {
     font-weight: 700;
     line-height: 17px;
     letter-spacing: 0em;
-}
+}*/
 
 .cta {
     display: flex;

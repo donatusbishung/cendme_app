@@ -25,6 +25,71 @@
 
 /* End Global Styling */
 
+/* Header styling */
+.nav-link {
+    transition: border-bottom 0.4s all ease-in-out;
+    border-bottom: 2px solid transparent !important;
+    padding-bottom: 2px !important
+    
+}
+.nav-link:hover,
+.nav-link:active {
+    border-bottom-color: #5ED680 !important;
+    color:#5ED680 !important;
+    transition: border-bottom 0.5s all ease-in-out !important;
+}
+.nav-link:hover {
+    border-bottom-width: 5% !important;
+}
+.nav-btn {
+    font-size: 14px;
+    transition: font-size 0.3s ease !important;
+}
+.nav-btn:hover {
+    font-size:16px !important;
+    transition: font-size 0.3s ease !important;
+}
+
+/* Newsletter styling*/
+.input-container {
+    position: relative;
+}
+.input-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 75%;
+    width:30%;
+    border-radius: 99px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 9px;
+    color: white;
+    background-color: #5ED680;
+    
+}
+input:focus {
+    outline: none;
+}
+
+
+.sms-icon {
+    position: absolute;
+    top: 37%;
+    left: 5%;
+
+}
+
+
+/* copyright styling */
+.right-copyright {
+    display: flex;
+    margin-top: -18%;
+    margin-right: -220%;
+}
+   
+
 .card{
     background: none;
 }
@@ -38,20 +103,6 @@
 .joinus-con{
     position: absolute;
     top: -150px
-}
-
-/* Header styling */
-.active {
-    transition: all ease-in-out 0.5s;
-}
-.nav-transition {
-    transition: all ease-in-out 0.5s;
-}
-
-.nav-transition li:hover {
-    background-color:#5ED680;
-    transition: all ease-in-out 0.2s;
-    border-radius: 25px;
 }
 
 /* Newsletter styling*/
@@ -84,15 +135,6 @@ input:focus {
     left: 3%;
 
 }
-/* copyright styling */
-
-.right-copyright {
-    position: absolute;
-    right: 15%;
-    bottom: -60%;
-    font-size: 14px;
-}
-
 
 
 /* Mobile responsiveness*/
@@ -109,8 +151,14 @@ input:focus {
         margin-top: 15px;
     }
 
-    .nav-transition li:hover {
-        width: 25%;
+    .nav-link:hover {
+        width: 12%;
+    }
+    .contact-nav-link:hover {
+        width:24%;
+    }
+    .nav-btn {
+        margin-top: 20px;
     }
 
     /* newsletter section */
@@ -124,49 +172,68 @@ input:focus {
         height: 20vh;
     }
     .newsletter-header {
-        width: 100% !important;
+        width: 150% !important;
         position: relative;
-        left: -20%;
+        left: -45%;
+        font-size:28px !important;
+        padding-right:40px;
+        padding-left: 40px;
+        padding-top: 40px;
+        line-height: 40px !important;
+        
     }
     .input-container {
-        width: 130% !important;
-        left: -39%;
+        width:140% !important;
+        left: -45%;
+        
     }
     .input-email {
-        padding-left: 40px !important; 
+        padding-left: 45px !important;
+    }
+    .input-button {
+       width:40%;
     }
 
+
     /* Footer section */
+    .get-things-done {
+        width: 90% !important;
+    }
     .first-footer-col {
-        margin-top: -50%;
-        margin-left: -38%;
+        margin-top: -40%;
+        margin-left: -15%;
+        
     }
     .first-footer-icons {
         position: relative;
-        left: -35%;
+        left: -15%;
     }
     .sec-footer-col {
         position: relative;
-        left: -35%;
+        left: -19%;
         top: -5%;
     }
     .third-footer-col {
         position: relative;
-        left: -35%;
+        left: -19%;
         top: -20%;
     }
     .copyright-nav {
-        width: 100% !important;
-        position: relative;
-        left: -15%;
         margin-top: -10% !important;
+        padding-left: 15px !important; 
+        column-gap: 50% !important;
+        margin-left: 16% !important;
+        opacity: 0.7;
+        white-space: nowrap;
+        width:68% !important;
+        text-align: center;
     }
+    
     .copyright-text {
-        position: relative;
-        top: -60%;
-        left: -15%;
-        margin-top:50px !important;
+        margin-left: -111%;
+        margin-top: 60px;
     }
+    
     
     .joinus{
         padding-top: 100%;
