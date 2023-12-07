@@ -58,9 +58,18 @@
             color: black;
             min-width: 100px;
 
+
+            &:hover, &:active {
+                border: none;
+                border-color: transparent;
+                border-bottom-width: 0 !important;
+                border-bottom-color: unset !important;
+                color: black !important;
+            }
+
             &.active {
                 background-color: #1E9D42;
-                color: #fff;
+                color: #fff !important;
             }
         }
     }
