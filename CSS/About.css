@@ -62,6 +62,10 @@
     
 }
 
+.fixed-nav {
+    padding-top: 6rem !important;
+}
+
 .desi :hover{
     background-color: white;
 }

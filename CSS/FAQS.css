@@ -101,6 +101,10 @@ input:focus {
 
 }
 
+.fixed-nav {
+    padding-top: 65px !important;
+}
+
 /* accordion styling */
 .accordion {
     width: 100%;

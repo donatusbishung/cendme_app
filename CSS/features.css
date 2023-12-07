@@ -47,6 +47,11 @@
         cursor: pointer;
     }
 
+    
+
+}
+.fixed-nav {
+    padding-top: 70px !important;
 }
 
 
@@ -215,8 +220,16 @@ input:focus {
     .cendme-image {
         width: 350px;
         height: 255.11px;
+    }   
+
+    .download-buttons {
+        width: 160.96px;
+        height: 50.5px;
     }
 
+    .para-mobile {
+        text-align: center;
+    }
     
 } 
 
@@ -308,4 +321,5 @@ input:focus {
 .swiper-button-next:after, 
 .swiper-button-prev:after {
   font-size: 30px !important;
+  display: none;
 }
