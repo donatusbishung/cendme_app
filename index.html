@@ -35,41 +35,41 @@
     <link rel="stylesheet" href="./CSS/sections/FAQS_landing.css">
 
 </head>
-<body>
+<body style="overflow-x: hidden;">
 
     <!--Navigation and header-->
     <header>
-        <nav class="navbar navbar-expand-lg w-100 py-3 shadow-sm active" style="border-bottom:1px solid #5ED680;">
-            <div class="container-fluid">
-              <a class="navbar-brand text-center cendme-title" href="#" style="font-size:30px;margin-left:90px;color:#5ED680;font-weight:bolder;">CendMe</a>
-              <button class="navbar-toggler custom-toggler" style="border:none;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="mx-auto">
-                <ul class="navbar-nav mb-2 mb-lg-0 nav-transition" style="gap:50px;">
-                  <li class="nav-item border-lenght">
-                    <a class="nav-link active"  aria-current="page" href="index.html" style="border-bottom:1px solid #5ED680">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html" style="color:black;">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html" style="color:black; ">Contact Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="faq.html" style="color:black; ">FAQs</a>
-                  </li>
-                </ul>
-                </div>
-                <form class="d-flex" role="search">
-                   <button class="nav-btn" type="submit" style="padding:13px 38px;border-radius:8px;border:1px solid #5ED680;background-color: #FFFFFF;color:#5ED680;font-size:14px; font-weight:700;margin-right: 90px;">Download Now</button>
-                </form>
+      <nav class="navbar navbar-expand-lg w-100 py-3 shadow-sm active active-link" style="border-bottom:1px solid #5ED680;">
+          <div class="container-fluid">
+            <a class="navbar-brand text-center cendme-title" href="#" style="font-size:30px;margin-left:90px;color:#5ED680;font-weight:bolder;">CendMe</a>
+            <button class="navbar-toggler custom-toggler" style="border:none;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="mx-auto">
+              <ul class="navbar-nav mb-2 mb-lg-0 nav-transition" style="gap:50px;">
+                <li class="nav-item border-lenght">
+                  <a class="nav-link active"  aria-current="page" href="index.html" style="color:#2F2F2F;">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_page.html" style="color:#2F2F2F;">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link contact-nav-link" href="contact.html" style="color:#2F2F2F; ">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="FAQS.html" style="color:#2F2F2F; ">FAQs</a>
+                </li>
+              </ul>
               </div>
+              <form class="d-flex" role="search">
+                <button class="nav-btn" type="submit" style="padding:11px 38px;border-radius:8px;border:1px solid #5ED680;background-color: #FFFFFF;color:#5ED680;font-size:14px; font-weight:700;margin-right: 95px;">Download Now</button>
+              </form>
             </div>
-          </nav>
-    </header>
- 
+          </div>
+        </nav>
+   </header>
+
  <!-- Hero section-->
     <main id="#hero" class="hero">
         <div class="container-sm py-5">            
@@ -519,105 +519,110 @@
 
          <!--Newsletter Section-->
          <section style="margin-top:30px;" class="newsletter-sec">
-            <div class=" px-4 text-center" style="background-color: rgb(54, 54, 54); color:whitesmoke; height:361px;">
-              <div class="row gx-5">
-                <div class="col">
-                 <div class="p-3">
-                  <h1 class="newsletter-header" style="font-size:48px; margin-top:30px;line-height:60px;text-align:center;width:60%;margin-left: 20%;font-weight: bold;color:#FDFDFD;" >Join our newsletter to get the latest guides!</h1>
-                 </div>
-                </div>  
+          <div class=" px-4 text-center" style="background-color: rgb(54, 54, 54); color:whitesmoke; height:361px;">
+            <div class="row gx-5">
+              <div class="col">
+               <div class="p-3">
+                <h1 class="newsletter-header" style="font-size:48px; margin-top:30px;line-height:60px;text-align:center;width:60%;margin-left: 20%;font-weight: bold;color:#FDFDFD;" >Join our newsletter to get the latest guides!</h1>
+               </div>
               </div>
-          
-              <div class="row gx-5">
-                <div class="col">
-                 <div class="p-5">
-                  <form>
-                    <div class="flex border w-50 input-container" style="display: flex; flex-direction: column; margin-left:25%;border-radius: 40px; border: none !important;">
-                      <img src="./Assets/IMG/sms.png" alt="icon" width="20" class="sms-icon"/>
-                      <input class="input-email" type="email" placeholder="Enter your email" required style="padding:25px;border-radius: 44px; padding-left:58px;font-size:16px;color:#2F2F2F;">
-                      <div>
-                        <button type="submit" class="input-button" style="color:#FFFFFF;">Submit</button>
-                      </div>
+              
+            </div>
+        
+            <div class="row gx-5">
+              <div class="col">
+               <div class="p-5">
+                <form>
+                  <div class="flex border w-50 input-container" style="display: flex; flex-direction: column; margin-left:25%;border-radius: 40px; border: none !important;">
+                    <img src="./Assets/IMG/sms.png" alt="icon" width="20" class="sms-icon"/>
+                    <input class="input-email" type="email" placeholder="Enter your email" required style="padding:25px;border-radius: 44px; padding-left:58px;font-size:16px;color:#2F2F2F;">
+                    <div>
+                      <button type="submit" class="input-button" style="color:#FFFFFF;">Submit</button>
                     </div>
-                  </form>
-                 </div>
-                </div>          
+                  </div>
+                </form>
+               </div>
               </div>
+             
             </div>
-      
-          </section>
-          <section class="wave-sec">
-            <div>
-              <img  src="./Assets/IMG/Wave.png" alt="wave" style="width:100%;" />
-            </div>
+          </div>
+          
          </section>
-
+         <section class="wave-sec">
+          <div>
+            <img  src="./Assets/IMG/Wave.png" alt="wave" style="width:100%;" />
+          </div>
+         </section>
+    
          <!--footer section-->
          <section>
-            <footer>
-              <div class="container-fluid ">
-                <div class="container px-4 " style="gap: 35px;">
-                  <div class="row gx-5">
-                    <div class="col" style="margin-left: 40px;">
-                     <div class="p-5 first-footer-col">
-                      <h1 style="color:#5ED680; font-weight: bolder; margin-right:25%;margin-top:20px;">CendMe</h1>
-                      <p style="line-height: 30px;margin-top: 30px;width:130%;color:#52525b; font-size:14px;" class="get-things-done">Get things done without lifting a finger. Life is too short to run errands. Let us do it for you. Sign up for CendMe today and start enjoying your free time.</p>
-                     </div>
-                     <div class="d-flex ms-5 first-footer-icons" style="margin-top: -12%;gap:40px; align-items: center;">
-                      <img src="./Assets/IMG/twitter-logo-24.png" alt="twitter icon" style="color: black;" width="20" height="20"/>
-                      <img src="./Assets/IMG/facebook-logo-24.png" alt="facebook icon"/>
-                      <img src="./Assets/IMG/instagram-logo-24.png" alt="instagram icon"/>
-                    </div>
-                    </div>
-                    <div class="col">
-                      <div class="p-3 sec-footer-col" style="margin-left: 90px;">
-                        <h6 style="color:#5ED680;margin-top: 60px;font-weight: bolder;">COMPANY</h6>
-                        <div style="margin-top: 50px;color:#52525B; font-size:14px;">
-                        <p>About</p>
-                        <p><a href="features.html">Features</a></p>
-                        <p>How it Works</p>
-                        <p>Become an Errander</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="p-3 third-footer-col" style="margin-left: 90px;" >
-                        <h6 style="color: #5ED680;margin-top: 60px;font-weight: bolder;">HELP</h6>
-                        <div style="margin-top: 50px;color:#52525B; font-size:14px;">
-                          <p>Customer Support</p>
-                          <p>Delivery Details</p>
-                          <p>Terms & Conditions</p>
-                          <p>Privacy Policy</p>
-                        </div>
+          <footer>
+            <div class="container-fluid ">
+              <div class="container px-4 " style="gap: 35px;">
+                <div class="row gx-5">
+                  <div class="col" style="margin-left: 40px;">
+                   <div class="p-5 first-footer-col">
+                    <h1 style="color:#5ED680; font-weight: bolder; margin-right:25%;margin-top:20px;">CendMe</h1>
+                    <p style="line-height: 30px;margin-top: 30px;width:140%;color:#52525b; font-size:14px;" class="get-things-done">Get things done without lifting a finger. Life is too short to run errands. Let us do it for you. Sign up for CendMe today and start enjoying your free time.</p>
+                   </div>
+                   <div class="d-flex ms-5 first-footer-icons" style="margin-top: -12%;gap:40px;">
+                    <!--<img src="./Assets/IMG/1.png" alt="twitter icon" width="20" height="18"/> -->
+                    <box-icon type='logo' name='twitter' style="opacity:0.7;"></box-icon>
+                    <!--<img src="./Assets/IMG/logo-fb-simple 2.png" alt="facebook icon"/> -->
+                    <box-icon type='logo' name='facebook' style="opacity: 0.7;"></box-icon>
+                    <!--<img src="./Assets/IMG/logo-instagram 1.png" alt="instagram icon"/> -->
+                    <box-icon name='instagram' type='logo' style="opacity:0.7;"></box-icon>
+                  </div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3 sec-footer-col" style="margin-left: 90px;">
+                      <h6 style="color:#5ED680;margin-top: 60px;font-weight: bolder;">COMPANY</h6>
+                      <div style="margin-top: 50px;color:#52525B; font-size:14px;">
+                      <p>About</p>
+                      <p><a href="features.html" style="text-decoration: none;font-size:14px;color:#52525B">Features</a></p>
+                      <p>How it Works</p>
+                      <p>Become an Errander</p>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="container px-4  w-50 copyright-nav" style="margin-left: 14%; margin-bottom:40px;margin-top: 60px;">
-                  <div class="row" style="font-size: 14px; cursor: pointer;">
-                    <div class="col">
-                      <p><a href="about_page.html" style="text-decoration: none; color: #52525B;font-size:14px;">About Us</a></p>
-                     </div>
-                     <div class="col">
-                      <p><a href="contact.html" style="text-decoration: none; color: #52525B;font-size:14px;">Contact</a></p>
-                     </div>
-                     <div class="col">
-                      <p><a href="privacy_policy.html" style="text-decoration: none;color: #52525B;font-size:14px;">Privacy policy</a></p>
-                     </div>
-                     <div class="col">
-                      <p><a href="terms.html" style="text-decoration: none; color: #52525B;font-size:14px;">Terms of Use</a></p>
-                     </div>
+                  <div class="col">
+                    <div class="p-3 third-footer-col" style="margin-left: 90px;" >
+                      <h6 style="color: #5ED680;margin-top: 60px;font-weight: bolder;">HELP</h6>
+                      <div style="margin-top: 50px;color:#52525B; font-size:14px;">
+                        <p>Customer Support</p>
+                        <p>Delivery Details</p>
+                        <p>Terms & Conditions</p>
+                        <p>Privacy Policy</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-      
-                <!--right containing copyright-->
-                <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center copyright-text">
-                  <p class="right-copyright" style="color:#52525B;font-size:15px;">&copy 2023 All Rights Reserved</p>
                 </div>
               </div>
-            </footer>
+              <div class="container px-4  w-50 copyright-nav" style="margin-left: 14%; margin-bottom:40px;margin-top: 60px;">
+                <div class="row" style="font-size: 14px; cursor: pointer;">
+                  <div class="col">
+                    <p><a href="about_page.html" style="text-decoration: none; color: #52525B;font-size:14px;">About Us</a></p>
+                   </div>
+                   <div class="col">
+                    <p><a href="contact.html" style="text-decoration: none; color: #52525B;font-size:14px;">Contact</a></p>
+                   </div>
+                   <div class="col">
+                    <p><a href="privacy_policy.html" style="text-decoration: none;color: #52525B;font-size:14px;">Privacy policy</a></p>
+                   </div>
+                   <div class="col">
+                    <p><a href="terms.html" style="text-decoration: none; color: #52525B;font-size:14px;">Terms of Use</a></p>
+                   </div>
+                </div>
+              </div>
+    
+              <!--right containing copyright-->
+              <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center copyright-text">
+                <p class="right-copyright d-flex" style="color:#52525B;font-size:15px;">&copy 2023 All Rights Reserved</p>
+              </div>
+            </div>
+          </footer>
          </section>
-
+    
 
    
     <!-- bootsrap script -->

@@ -28,33 +28,67 @@
 
 
 /* Header styling */
-.active {
-    transition: all ease-in-out 0.5s;
-}
-.nav-transition {
-    transition: all ease-in-out 0.5s;
-}
-
-.nav-transition li:hover {
-    color:#1E9D42; border-bottom:1px solid #5ED680;
-    transition: all ease-in-out 0.2s;
+.nav-link {
+    transition: border-bottom 0.4s all ease-in-out;
+    border-bottom: 2px solid transparent !important;
+    padding-bottom: 2px !important
     
 }
-.nav-bt .btn:hover {
-    background-color: transparent !important;
+.nav-link:hover,
+.nav-link:active {
+    border-bottom-color: #5ED680 !important;
+    color:#5ED680 !important;
+    transition: border-bottom 0.5s all ease-in-out !important;
 }
+.nav-link:hover {
+    border-bottom-width: 5% !important;
+}
+.nav-btn {
+    font-size: 14px;
+    transition: font-size 0.3s ease !important;
+}
+.nav-btn:hover {
+    font-size:16px !important;
+    transition: font-size 0.3s ease !important;
+}
+
 /* Newsletter styling*/
+.input-container {
+    position: relative;
+}
+.input-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 75%;
+    width:30%;
+    border-radius: 99px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 9px;
+    color: white;
+    background-color: #5ED680;
+    
+}
+input:focus {
+    outline: none;
+}
+
+
+.sms-icon {
+    position: absolute;
+    top: 37%;
+    left: 5%;
+
+}
 
 
 /* copyright styling */
-footer {
-    position: relative;
-}
 .right-copyright {
-    position: absolute;
-    right: 15%;
-    bottom: 10%;
-    font-size: 14px;
+    display: flex;
+    margin-top: -18%;
+    margin-right: -220%;
 }
 
 
@@ -73,14 +107,53 @@ footer {
         margin-top: 15px;
     }
 
-    .nav-transition li:hover {
-        width: 25%;
+    .nav-link:hover {
+        width: 12%;
+    }
+    .contact-nav-link:hover {
+        width:24%;
+    }
+    .nav-btn {
+        margin-top: 20px;
+    }
+
+    /* newsletter section */
+    .newsletter-sec {
+        height: 70vh;
+        background-color: rgb(54, 54, 54) !important;
+        
+    }
+
+    .wave-sec {
+        height: 20vh;
+    }
+    .newsletter-header {
+        width: 150% !important;
+        position: relative;
+        left: -45%;
+        font-size:28px !important;
+        padding-right:40px;
+        padding-left: 40px;
+        padding-top: 40px;
+        line-height: 40px !important;
+        
+    }
+    .input-container {
+        width:140% !important;
+        left: -45%;
+        
+    }
+    .input-email {
+        padding-left: 45px !important;
+    }
+    .input-button {
+       width:40%;
     }
 
 
     /* Footer section */
     .get-things-done {
-        width: 100% !important;
+        width: 90% !important;
     }
     .first-footer-col {
         margin-top: -40%;
@@ -93,12 +166,12 @@ footer {
     }
     .sec-footer-col {
         position: relative;
-        left: -20%;
+        left: -19%;
         top: -5%;
     }
     .third-footer-col {
         position: relative;
-        left: -20%;
+        left: -19%;
         top: -20%;
     }
     .copyright-nav {
@@ -108,15 +181,13 @@ footer {
         margin-left: 16% !important;
         opacity: 0.7;
         white-space: nowrap;
-        width:70% !important;
+        width:68% !important;
         text-align: center;
     }
     
     .copyright-text {
-        position: relative;
-        top: -50%;
-        left: -12%;
-        padding: 5px 40px !important;
+        margin-left: -111%;
+        margin-top: 60px;
     }
 } 
 
@@ -133,10 +204,33 @@ footer {
     .border-lenght {
         margin-top:15px;
     }
-    .nav-transition li:hover {
-        width:12%;
+    .nav-link:hover {
+        width: 10%;
+    }
+    .contact-nav-link:hover {
+        width:20%;
+    }
+    
+    .nav-btn {
+        margin-top:20px;
     }
 
+    /*Newsletter section */
+    .newsletter-sec {
+        height: 40vh;
+       /* background-color: rgb(54, 54, 54);*/
+       background-color: #000000CC;
+    }
+    .newsletter-header {
+        width: 100% !important;
+        position: relative;
+        left: -20%;
+        margin-top: 15% !important;
+    }
+    .input-container {
+        width: 70% !important;
+        left: -10%;
+    }
 
     /* Footer section */
     .third-footer-col {
@@ -149,10 +243,8 @@ footer {
         opacity: 0.7;
     }
     .copyright-text {
-        position: absolute;
-        left: -24%;
-        bottom: -19%;
-        margin-top: -5% !important;
+        margin-left: -110%;
+        margin-top: 14%;
     }
 }
 
