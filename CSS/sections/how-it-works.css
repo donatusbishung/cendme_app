@@ -60,11 +60,12 @@
 
 
             &:hover, &:active {
-                border: none;
-                border-color: transparent;
+                border: none !important;
+                border-color: transparent !important;
                 border-bottom-width: 0 !important;
-                border-bottom-color: unset !important;
+                border-bottom-color: transparent !important;
                 color: black !important;
+                width: 100%;
             }
 
             &.active {

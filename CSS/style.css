@@ -113,6 +113,9 @@ footer {
     margin-right: -220%;
 }
 
+.vid-btn {
+    margin-top: 70px;
+}
 
 
 /* Mobile responsiveness*/
@@ -150,12 +153,11 @@ footer {
         height: 20vh;
     }
     .newsletter-header {
-        width: 150% !important;
+        width: 100% !important;
         position: relative;
-        left: -45%;
         font-size:28px !important;
-        padding-right:40px;
-        padding-left: 40px;
+        /* padding-right:40px;
+        padding-left: 40px; */
         padding-top: 40px;
         line-height: 40px !important;
         
@@ -679,6 +681,7 @@ footer {
     width: 100%;
 }
 
+
 @media (max-width: 1024px) {
     .faq-section .img-cont {
         text-align: center;
@@ -690,6 +693,7 @@ footer {
 
     .faq-section .accordion {
         height: 100%;
+        margin: 0;
     }
 
     .faq-section .header h1,
