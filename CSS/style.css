@@ -1,7 +1,7 @@
-
 @import './sections/how-it-works.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@200;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -21,7 +21,7 @@
 }
 
 .pri-bg-col {
-    background-color:  rgba(0, 0, 0, 0.80);
+    background-color: rgba(0, 0, 0, 0.80);
 }
 
 /* End Global Styling */
@@ -31,18 +31,22 @@
 .active {
     transition: all ease-in-out 0.5s;
 }
+
 .nav-transition {
     transition: all ease-in-out 0.5s;
 }
 
 .nav-transition li:hover {
-    color:#1E9D42; border-bottom:1px solid #5ED680;
+    color: #1E9D42;
+    border-bottom: 1px solid #5ED680;
     transition: all ease-in-out 0.2s;
-    
+
 }
+
 .nav-bt .btn:hover {
     background-color: transparent !important;
 }
+
 /* Newsletter styling*/
 
 
@@ -50,6 +54,7 @@
 footer {
     position: relative;
 }
+
 .right-copyright {
     position: absolute;
     right: 15%;
@@ -82,43 +87,48 @@ footer {
     .get-things-done {
         width: 100% !important;
     }
+
     .first-footer-col {
         margin-top: -40%;
         margin-left: -15%;
-        
+
     }
+
     .first-footer-icons {
         position: relative;
         left: -15%;
     }
+
     .sec-footer-col {
         position: relative;
         left: -20%;
         top: -5%;
     }
+
     .third-footer-col {
         position: relative;
         left: -20%;
         top: -20%;
     }
+
     .copyright-nav {
         margin-top: -10% !important;
-        padding-left: 15px !important; 
+        padding-left: 15px !important;
         column-gap: 50% !important;
         margin-left: 16% !important;
         opacity: 0.7;
         white-space: nowrap;
-        width:70% !important;
+        width: 70% !important;
         text-align: center;
     }
-    
+
     .copyright-text {
         position: relative;
         top: -50%;
         left: -12%;
         padding: 5px 40px !important;
     }
-} 
+}
 
 
 /* Tablet responsiveness */
@@ -128,13 +138,15 @@ footer {
     /* Header section */
     .cendme-title {
         position: relative;
-        right:10%;
+        right: 10%;
     }
+
     .border-lenght {
-        margin-top:15px;
+        margin-top: 15px;
     }
+
     .nav-transition li:hover {
-        width:12%;
+        width: 12%;
     }
 
 
@@ -143,11 +155,13 @@ footer {
         position: relative;
         left: -3%;
     }
+
     .copyright-nav {
         width: 60% !important;
         margin-left: 21% !important;
         opacity: 0.7;
     }
+
     .copyright-text {
         position: absolute;
         left: -24%;
@@ -161,10 +175,10 @@ footer {
     Don't style inside another contributor's section.
  */
 
- /* Hero styling */
- .rec-52 { 
-    width: 81%; 
-    position: relative; 
+/* Hero styling */
+.rec-52 {
+    width: 81%;
+    position: relative;
 }
 
 .rec-52mobile {
@@ -180,54 +194,54 @@ footer {
 
 @media only screen and (max-width: 767px) {
 
-.container {
-    height: auto;  
+    .container {
+        height: auto;
+    }
+
+    .rec-52 {
+        display: none;
+    }
+
+    .rec-53 {
+        display: none;
+    }
+
+    .hero-left h1 {
+        text-align: center;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 800;
+
+    }
+
+    .hero-left p {
+        text-align: center;
+        font-size: 20px;
+        padding-right: auto;
+        padding-top: 10px;
+    }
+
+    .hero-apps {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .reviews-container {
+        position: absolute;
+        transform: scale(0.3);
+    }
+
+    .hero-right {
+        margin-left: 0;
+    }
+
+    .vid-btn {
+        margin-top: 190%;
+    }
+
 }
 
-.rec-52 {
-    display: none;
-}
-
-.rec-53 {
-    display: none;
-}
-
-.hero-left h1 {
-    text-align: center;
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: 800;
-    
-}
-
-.hero-left p {
-    text-align: center;
-    font-size: 20px;
-    padding-right: auto;
-    padding-top: 10px;
-}
-
-.hero-apps {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.reviews-container {
-    position: absolute;
-    transform: scale(0.3);
-}
-
-.hero-right {
-    margin-left: 0;
-}
-
-.vid-btn {
-    margin-top: 190%;
-}
-
-}
-    
 /* 
  testimonial section
   */
@@ -246,9 +260,10 @@ footer {
 
 .rating-sect {
     font-family: 'Manrope', sans-serif !important;
-    font-size: 18px; 
+    font-size: 18px;
     opacity: 60%;
 }
+
 /* end of testimonial section */
 
 
@@ -262,9 +277,9 @@ footer {
 
 
 .svg_line {
-    position: absolute;  
-    left: 170px; 
-    top: 30px; 
+    position: absolute;
+    left: 170px;
+    top: 30px;
     width: 65%;
 }
 
@@ -273,7 +288,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     /* left: 150px;  */
     top: 10px;
     padding-left: 170px;
@@ -306,7 +321,7 @@ footer {
 }
 
 .background_image_section img {
-    width: 90%; 
+    width: 90%;
     height: auto;
 }
 
@@ -314,22 +329,22 @@ footer {
 /* Swipper part */
 
 .swipper_area_container {
-    display: flex; 
-    justify-content: space-between; 
-    width: 100%; 
-    z-index: 999; 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 999;
     padding: 20px;
 }
 
 .inside_swipper_left_side {
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     gap: 20px;
 }
 
 .inside_swipper_right_side {
-    background-color: #1E9D42; 
-    color: #fff; 
+    background-color: #1E9D42;
+    color: #fff;
     padding: 5px 46px;
     border-radius: 8px;
 }
@@ -370,7 +385,7 @@ footer {
         margin-top: 66px;
     }
 
-    .text_info_and_line_container  div {
+    .text_info_and_line_container div {
         font-size: 18px !important;
     }
 
@@ -429,12 +444,12 @@ footer {
 
 
     .inside_swipper_right_side {
-        background-color: #1E9D42; 
-        color: #fff; 
+        background-color: #1E9D42;
+        color: #fff;
         padding: 8px 25px;
         border-radius: 8px;
     }
-    
+
 
     .inside_swipper_left_side button {
         padding: 5px !important;
@@ -514,4 +529,55 @@ footer {
     }
 
 }
+
 /* CendMe lifesaver section ending */
+
+.faq-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.faq-section .img-cont {
+    margin-top: 32px;
+}
+
+.faq-section .img-cont img {
+    width: 80%;
+}
+
+.faq-section .accordion {
+    height: 80%;
+    overflow: auto;
+}
+
+.faq-section .header h1,
+.faq-section .header .second {
+    text-align: left;
+    margin: 0;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .faq-section .img-cont {
+        text-align: center;
+    }
+
+    .faq-section .img-cont img {
+        width: 100%;
+    }
+
+    .faq-section .accordion {
+        height: 100%;
+    }
+
+    .faq-section .header h1,
+    .faq-section .header .second {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .faq-section .img-cont img {
+        width: 80%;
+    }
+}
