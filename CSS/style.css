@@ -293,14 +293,28 @@ footer {
     position: relative;
 }
 
-.rec-52mobile {
+/* .rec-52-mobile { 
     display: none;
-}
+ } */
 
 .rec-53 {
     position: absolute;
     width: 1050px;
 }
+
+.video-btn {    
+    bottom: 140px;
+    left: 50%;  
+    rotate: -5deg;
+} 
+
+.btn-container {
+    width: 10%;
+    height: 15%;
+    border-radius: 30px;
+    border: 1px solid;
+}
+
 
 /* Mobile responsiveness*/
 
@@ -308,10 +322,6 @@ footer {
 
     .container {
         height: auto;
-    }
-
-    .rec-52 {
-        display: none;
     }
 
     .rec-53 {
@@ -693,3 +703,94 @@ footer {
         width: 80%;
     }
 }
+@media only screen and (max-width: 1024px) {
+   
+    .container-sm {
+        width: unset;   
+    }
+    
+    /* .rec-52 {  
+         display: none; 
+    }
+    
+    .rec-53 {
+        display: none;
+    } */
+    
+    .angles {
+        display: none;
+    }
+
+    .rec-52-mobile {
+        background-image: url("../Assets/IMG/Rectangle52mobile.png") !important;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 94% !important;
+        height: 80% !important;
+            
+    } 
+    
+    .hero-left h1 {
+        text-align: center;
+        font-size: 28px;
+        line-height: 30px;
+        font-weight: 800;
+        
+    }
+
+    .hero-left {
+        padding-left: 0 !important;
+    }
+
+    .div {
+        padding-right: 1rem !important;
+    }
+    
+    .hero-left p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 18px;
+        padding-right: auto;
+        padding-top: 10px;
+    }
+    
+    .hero-apps {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .hero-apps img {
+        width: 48%;
+    } 
+    
+    .reviews-container {
+        position: absolute;
+        transform: scale(0.6);
+        right: -10px;
+    }
+    
+   
+    .hero-right {
+       width: 60%;
+       height: 60%;
+       margin: auto;
+    }
+    
+    .vid-btn {
+        width: 30px;
+        margin-top: 428px;
+    } 
+    
+    .vid-btn i {
+        font-size: 12px !important;
+
+    }
+
+    .vid-btn img {
+        width: 100%;
+    }
+}
+
+    
