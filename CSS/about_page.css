@@ -105,6 +105,15 @@ input:focus {
     top: -150px
 }
 
+.btn-join-us {
+    border: 1px solid #5ED680 !important;
+}
+
+.btn-join-us:hover {
+    background-color: #5ED680;
+    color: white;
+}
+
 /* Newsletter styling*/
 .input-container {
     position: relative;
