@@ -210,22 +210,15 @@ textarea {
 textarea::placeholder {
     opacity: 40%;
 }
-.btn {
+.btn-tn {
     height: auto;
-    width: 100%;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-btn a {
-    padding: 15px;
+    background-color: #5ED680;
     border-radius: 15px;
-    background: #5ED680;
-    text-decoration: none;
     font-size: 14px;
     font-weight: 700;
     line-height: 17px;
-    letter-spacing: 0em;
+    text-decoration: none;
 }
 
 .cta {
@@ -312,9 +305,9 @@ form .name input {
         overflow-x: hidden;
     }
    
-    nav {
+    /* nav {
         margin-bottom: 25px;
-    }
+    } */
 
     .nav-colla {
         display: flex; 
@@ -416,7 +409,7 @@ form .name input {
         border: 18px;
         font-size: 4px;
         font-weight: 50;
-        right: 24%;
+        right: 26%;
         text-transform: none;
         bottom: 20px;
         top: 20px;
@@ -424,6 +417,7 @@ form .name input {
     .icon img {
         width: 20px;
         height: 20px;
+        margin-left: 25px;
     }
    .icon {
     padding-top: 12px;
@@ -438,5 +432,177 @@ form .name input {
         margin-bottom: 80px;
         margin-top: 0;
         border: none;
+    }
+
+    .btn-tn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media  screen and (max-width: 430px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+   
+    /* nav {
+        margin-bottom: 25px;
+    } */
+
+    .nav-colla {
+        display: flex; 
+        flex-direction: column;
+        padding-left: 15px;
+    }
+    .nav-btn {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+    .wit {
+        font-size: 14px;
+    }
+    .hero {
+        border: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .hero-bod {
+        flex-direction: column;
+    }
+    .contact-inf {
+        width: 100%;
+        border-radius: 0;
+        height: 464px;
+    }
+    .head {
+        font-size: 28px;
+        line-height: 35.26px;
+    }
+    .sub {
+        font-size: 17px;
+        line-height: 17px;
+    }
+    .hx {
+        font-size: 18px;
+    }
+    .sx {
+        font-size: 14px;
+        width: 70%;
+    }
+    .infos {
+        padding-top: 25px;
+        padding-bottom: 60px;
+    }
+    .hero form {
+        width: 100%;
+        padding-left: 20px;
+        margin-bottom: 50px;
+    }
+    .name {
+        flex-direction: column;
+    }
+    .fname,
+    .email {
+        width: 100%;
+    }
+    label {
+        font-size: 16px;
+    }
+    .hero .btn a {
+        width: 100%;
+        margin: 0;
+    }
+    .cta {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        height: 250px;
+    }
+    .cta h1 {
+        font-size: 22px;
+        width: 80%;
+        line-height: 26.63px;
+    }
+    .input-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 90%;
+    }
+    .input-container input {
+        width: 300px;
+        border-radius: 40px;
+        padding-left: 5px;
+    }
+    .input-container input::placeholder {
+        font-size: 14px;
+    }
+    .invite-btn {
+        width: 110px;
+        height: 50px;
+        border: 18px;
+        font-size: 4px;
+        font-weight: 50;
+        right: 26%;
+        text-transform: none;
+        bottom: 20px;
+        top: 20px;
+    }
+    .icon img {
+        width: 20px;
+        height: 20px;
+        margin-left: 25px;
+    }
+   .icon {
+    padding-top: 12px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    left: 22%;
+    margin-left: 10px;
+   }
+    
+    .wave {
+        width: 100%;
+        margin-bottom: 80px;
+        margin-top: 0;
+        border: none;
+    }
+
+    .btn-tn {
+        width: 100%;
+        justify-content: center;
+    }
+    footer {
+        width: 100% !important;
+        height: auto;
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    .w-50 {
+        width: 100%!important;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+
+    footer {
+        width: 100% !important;
+        height: auto;
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    .w-50 {
+        width: 100%!important;
     }
 }
