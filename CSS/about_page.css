@@ -263,6 +263,27 @@ input:focus {
     }
 } 
 
+@media screen and (max-width: 820px) {
+    .cendMe-col {
+        flex-direction: column !important;
+    }
+    .letter-weight {
+        font-size: 22px !important;
+        font-weight: 600 !important;
+        line-height: 26.63px !important;
+        
+    }
+
+    .div-letter {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .letter-bottom {
+        margin-bottom: 0rem !important;
+    }
+}
+
 
 /* Tablet responsiveness */
 
@@ -296,6 +317,7 @@ input:focus {
         width: 70% !important;
         left: -10%;
     }
+
 
     /* Footer section */
     .third-footer-col {
