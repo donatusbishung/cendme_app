@@ -791,3 +791,21 @@ footer {
     }
 
 }
+
+@media screen and (max-width: 820px) {
+    .letter-weight {
+        font-size: 22px !important;
+        font-weight: 600 !important;
+        line-height: 26.63px !important;
+        
+    }
+
+    .div-letter {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .letter-bottom {
+        margin-bottom: 0rem !important;
+    }
+}
