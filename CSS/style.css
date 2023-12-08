@@ -728,6 +728,7 @@ footer {
 
     .hero-left {
         padding-left: 0 !important;
+        margin: auto !important;
     }
 
     .div {
