@@ -270,15 +270,15 @@ footer {
 
     /*Newsletter section */
     .newsletter-sec {
-        height: 40vh;
+        height: 41vh;
         /* background-color: rgb(54, 54, 54);*/
-        background-color: #000000CC;
+        background-color: #333333;
     }
 
     .newsletter-header {
         width: 100% !important;
         position: relative;
-        left: -20%;
+        /* left: -20%; */
         margin-top: 15% !important;
     }
 
@@ -686,9 +686,15 @@ footer {
     .faq-section .header .second {
         text-align: center;
     }
+
+    
+    .wave-sec {
+        margin-top: -2px;
+        border-top: 2px solid #333333;    
+    }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1280px) {
     .faq-section .img-cont img {
         width: 80%;
     }
@@ -777,4 +783,11 @@ footer {
     .vid-btn img {
         width: 100%;
     }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    .rec-52-mobile {
+        width: 88% !important;
+    }
+
 }
